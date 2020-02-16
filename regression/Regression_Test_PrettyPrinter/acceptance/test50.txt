@@ -1,0 +1,12 @@
+-- test implication with initialized boolean variable declaration with constant value (with error)
+p : BOOLEAN = true
+q : BOOLEAN = false
+k : BOOLEAN = true
+k : BOOLEAN = false
+verify p => q
+verify (not p => q) => not k
+s : BOOLEAN = false
+verify s => (p => not q)
+r : BOOLEAN = true
+s : BOOLEAN = true
+verify r => (not p => q) => s

@@ -1,0 +1,12 @@
+-- test relational logic with initialized int variable declaration with constant value (with error)
+i : INTEGER = 1 
+j : INTEGER = 2
+verify i * j = j + 5
+i : INTEGER = 7
+verify i >= j + 48
+m : INTEGER = 5
+verify m * j <= m + 45
+k : INTEGER = 2
+verify k + i < m * 9
+m : INTEGER = 10
+verify m > j + i

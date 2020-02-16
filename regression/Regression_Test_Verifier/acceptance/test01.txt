@@ -1,0 +1,9 @@
+-- test uninitialized boolean variable declaration (no error)
+p : BOOLEAN
+q : BOOLEAN
+s : BOOLEAN
+r : BOOLEAN
+t : BOOLEAN
+x : BOOLEAN
+y : BOOLEAN
+verify not p

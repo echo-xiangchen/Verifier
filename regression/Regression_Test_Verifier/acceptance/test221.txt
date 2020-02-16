@@ -1,0 +1,8 @@
+-- Gries Theorems
+-- Proof Techniques
+-- (4.6) Case analysis
+p : BOOLEAN
+q : BOOLEAN
+r : BOOLEAN
+s : BOOLEAN
+verify (p or q or r) and (p => s) and (q => s) and (r => s) => s

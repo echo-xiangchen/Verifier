@@ -1,0 +1,11 @@
+-- test negation with initialized boolean variable declaration with constant value (with error)
+p : BOOLEAN = true
+verify not p
+verify not q
+q : BOOLEAN = false
+s : BOOLEAN = false
+verify not s
+r : BOOLEAN = true
+verify not r
+r : BOOLEAN = false
+verify not k

@@ -1,0 +1,12 @@
+-- test disjunction with initialized boolean variable declaration with relational value (with error)
+i : INTEGER = 1 + 3
+j : INTEGER = i * 2
+m : INTEGER = 3 * 4 + 5
+q : BOOLEAN = j >= i
+p : BOOLEAN = i > 0
+q : BOOLEAN = s <= 0
+verify p or q
+s : BOOLEAN = j < 20
+r : BOOLEAN = j >= m
+r : BOOLEAN = m > i * j
+verify p or q or r or not s

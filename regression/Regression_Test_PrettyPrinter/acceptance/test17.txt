@@ -1,0 +1,7 @@
+-- test negation with uninitialized boolean variable declaration (no error)
+p : BOOLEAN
+q : BOOLEAN
+s : BOOLEAN
+verify not p
+verify not q
+verify not s

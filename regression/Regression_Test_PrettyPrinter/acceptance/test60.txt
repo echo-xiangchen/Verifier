@@ -1,0 +1,11 @@
+-- test iff with initialized boolean variable declaration with constant value (with error)
+p : BOOLEAN = true
+q : BOOLEAN = false
+verify p <=> q
+q : BOOLEAN = true
+verify (not p <=> q) <=> not q
+s : BOOLEAN = false
+verify s <=> (p <=> not q)
+r : BOOLEAN = true 
+r : BOOLEAN = false
+verify r <=> (not p <=> q) <=> s

@@ -1,0 +1,5 @@
+-- Gries Theorems
+-- Disjunction
+-- (3.28) Axiom, Excluded middle:
+p : BOOLEAN
+verify p or not p

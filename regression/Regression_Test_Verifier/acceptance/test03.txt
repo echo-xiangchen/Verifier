@@ -1,0 +1,8 @@
+-- test uninitialized int variable declaration (no error)
+i : INTEGER
+j : INTEGER
+i0 : INTEGER
+k : INTEGER
+m : INTEGER
+m1 : INTEGER
+verify true

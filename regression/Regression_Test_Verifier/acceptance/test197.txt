@@ -1,0 +1,7 @@
+-- Gries Theorems
+-- Implication
+-- (3.62) 
+p : BOOLEAN
+q : BOOLEAN
+r : BOOLEAN
+verify p => (q <=> r) <=> p and q <=> p and r

@@ -1,0 +1,11 @@
+-- test initialized int variable declaration with arithmetic value (with error)
+i : INTEGER = p + 3
+j : INTEGER = i * 2
+m : INTEGER = 3 * 4 + 5
+m0 : INTEGER = p - 2
+k : INTEGER = i + j / m
+k1 : INTEGER = i * 4 / j
+x : INTEGER = 6 * 3 - 2
+y : INTEGER = z * x + 5
+z : INTEGER = x + y - 4 * 3
+verify false

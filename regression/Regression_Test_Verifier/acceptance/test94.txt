@@ -1,0 +1,11 @@
+-- test less or equal with initialized int variable declaration with constant value (with error)
+i : INTEGER = 3
+j : INTEGER = 46
+verify i <= j
+i : INTEGER = 20
+verify n <= 0
+n : INTEGER = 45
+m : INTEGER = 100
+verify j <= m
+n : INTEGER = 7
+verify m <= n

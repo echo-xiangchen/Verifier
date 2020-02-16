@@ -1,0 +1,17 @@
+-- test propositional logic and greater than  with uninitialized boolean and int variable declaration (with error)
+i : INTEGER
+j : INTEGER
+m : INTEGER
+p : BOOLEAN
+q : BOOLEAN
+verify p <=> q and i > j + 1
+j : BOOLEAN
+r : BOOLEAN 
+s : BOOLEAN
+q : INTEGER
+verify not r and (s or q) <=> p => m > i * j
+s1 : BOOLEAN
+r0 : BOOLEAN
+k : BOOLEAN
+r0 : INTEGER
+verify not r0 <=> (s1 => (not k and r)) or i > j - m

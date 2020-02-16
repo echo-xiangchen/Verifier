@@ -1,0 +1,18 @@
+-- test propositional logic and less than  
+-- with uninitialized boolean and int variable declaration (with error)
+i : INTEGER
+j : INTEGER
+m : INTEGER
+p : BOOLEAN
+m : BOOLEAN
+q : BOOLEAN
+verify p <=> q and i < j + 1
+r : BOOLEAN 
+s : BOOLEAN
+verify not r and (s or q) <=> p => m < i - j
+s1 : BOOLEAN
+r0 : BOOLEAN
+r : INTEGER
+k : BOOLEAN
+s : INTEGER
+verify not r0 <=> (s1 => (not k and r)) or i < j - m + j * 2

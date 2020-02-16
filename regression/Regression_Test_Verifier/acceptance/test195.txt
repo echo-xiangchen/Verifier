@@ -1,0 +1,6 @@
+-- Gries Theorems
+-- Implication
+-- (3.60) Definition of implication: 
+p : BOOLEAN
+q : BOOLEAN
+verify p => q <=> p and q <=> p

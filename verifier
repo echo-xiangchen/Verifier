@@ -1,0 +1,98 @@
+#!/bin/bash
+set -m
+
+verifier_jar=/eecs/fac/pkg/verifier/verifier.jar
+LD_LIBRARY_PATH=/eecs/fac/pkg/verifier/lib
+export LD_LIBRARY_PATH
+
+
+if [ -n "$1" ]
+then
+	# if the first argument is "-h", print the help message
+	if [ $1 == "-h" ]
+	then
+		echo "-p: For Pretty Printing, where you could achieve an output file for each 
+        formula that could be recognized by the z3 online tool"
+		echo "-v: For Verification, where you could test if the formula is a tautology. 
+        If it's not a tautology, you could also get a counter example."
+		echo "-r: For regression testing, where you could perform the acceptance test 
+        on a series of test cases."
+    # if the first argument is "-p" - pretty printing
+    elif [ $1 == "-p" ]
+    then
+        # if there is an input file
+        if [ -n "$2" ]
+        then
+        	echo "==================================================================="
+        	echo "Now start executing the JAR file............."
+    		echo "==================================================================="
+    		echo "Below is the output for pretty printing of file: $2"
+    		echo "==================================================================="
+    		# run the JAR file
+            java -jar $verifier_jar $1 $2
+        # if there is no input file
+        else
+        	echo "Now start executing the JAR file............."
+    		echo "==================================================================="
+    		echo "You did not include an input file, please start typing your input below:"
+    		echo "==================================================================="
+            # run the JAR file    
+            java -jar $verifier_jar $1
+        fi
+    # if the first argument is "-v" - verification
+    elif [ $1 == "-v" ]; then
+    	# if there is an input file
+        if [ -n "$2" ]
+        then
+        	echo "==================================================================="
+        	echo "Now start executing the JAR file............."
+    		echo "==================================================================="
+    		echo "Below is the output for verification of file: $2"
+    		echo "==================================================================="
+    		# run the JAR file
+            java -jar $verifier_jar $1 $2
+        # if there is no input file
+        else
+        	echo "Now start executing the JAR file............."
+    		echo "==================================================================="
+    		echo "You did not include an input file, please start typing your input below:"
+    		echo "==================================================================="
+            # run the JAR file    
+            java -jar $verifier_jar $1
+        fi
+    # if the first argument is "-r" - regression testing
+    elif [ $1 == "-r" ]; then
+        read -p "Do you want to perform regression test of pretty printing(p) or verification(v)? [p|v]: " test
+        # if user want to perform pretty printing
+        if [ $test == "p" ]
+        then
+            cd regression/Regression_Test_PrettyPrinter/
+            python3 JAVA_Test_PrerryPrinter.py
+            cd ../../
+        # if user want to perform verifier
+        elif [ $test == "v" ]
+        then
+            cd regression/Regression_Test_Verifier/
+            python3 JAVA_Test_z3Verifier.py
+            cd ../../
+        else
+            echo "Unrecognized argument. Please indicate if you want to perform regression test of pretty printing(p) or verification(v)"
+        fi
+    else
+    	echo "Warning: Unrecognized argument"
+    	echo
+    	echo "Usage message:"
+		echo "  -p: Pretty Printing"
+		echo "  -v: Verification"
+		echo "  -r: Regression Testing"
+		echo "  -h: help"
+	fi
+else
+    echo "Warning: Unrecognized argument"
+    echo
+    echo "Usage message:"
+	echo "  -p: Pretty Printing"
+	echo "  -v: Verification"
+	echo "  -r: Regression Testing"
+	echo "  -h: help"
+fi

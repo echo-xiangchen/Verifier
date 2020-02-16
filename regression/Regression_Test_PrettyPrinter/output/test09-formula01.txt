@@ -1,0 +1,10 @@
+(declare-const p Bool)
+(assert (= p true))
+(declare-const q Bool)
+(assert (= q (not p)))
+(declare-const r Bool)
+(assert (= r (and p q)))
+(assert (not (not r)))
+(check-sat)
+;Uncomment the following line if the result of z3 online tool returns "sat"
+;(get-model)

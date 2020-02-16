@@ -1,0 +1,11 @@
+-- test equal with uninitialized int variable declaration (with error)
+i : INTEGER
+j : INTEGER
+k : INTEGER
+m : INTEGER
+verify i = j
+n : INTEGER
+verify k = m
+m : INTEGER
+n : INTEGER
+verify m = n

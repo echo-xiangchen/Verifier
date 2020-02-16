@@ -1,0 +1,5 @@
+-- Gries Theorems
+-- Disjunction
+-- (3.29) Zero of 'or':
+p : BOOLEAN
+verify p or true <=> true

@@ -1,0 +1,7 @@
+-- Gries Theorems
+-- Proof Techniques
+-- (4.7) Mutual implication
+-- to prove p <=> q, prove (p => q) and (q => p)
+p : BOOLEAN
+q : BOOLEAN
+verify (p <=> q) <=> ((p => q) and (q => p))

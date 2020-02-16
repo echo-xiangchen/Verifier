@@ -1,0 +1,11 @@
+-- test less than with uninitialized int variable declaration (with error)
+i : INTEGER
+j : INTEGER
+k : INTEGER
+verify i < j
+j : INTEGER
+k : INTEGER
+verify k < m
+m : INTEGER
+n : INTEGER
+verify m < n

@@ -1,0 +1,10 @@
+-- test greater or equal with uninitialized int variable declaration (with error)
+i : INTEGER
+j : INTEGER
+m : INTEGER
+verify i >= j
+m : INTEGER
+verify k >= m
+k : INTEGER
+n : INTEGER
+verify m >= n

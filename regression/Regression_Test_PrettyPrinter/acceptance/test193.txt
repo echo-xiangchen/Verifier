@@ -1,0 +1,6 @@
+-- Gries Theorems
+-- Implication
+-- (3.58) Axiom, Consequence: 
+p : BOOLEAN
+q : BOOLEAN
+verify q => p <=> q => p

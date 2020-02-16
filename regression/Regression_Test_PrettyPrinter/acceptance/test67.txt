@@ -1,0 +1,9 @@
+-- test equal with uninitialized int variable declaration (no error)
+i : INTEGER
+j : INTEGER
+k : INTEGER
+m : INTEGER
+verify i = j
+verify k = m
+n : INTEGER
+verify m = n

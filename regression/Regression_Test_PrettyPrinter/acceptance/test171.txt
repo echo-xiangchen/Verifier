@@ -1,0 +1,6 @@
+-- Gries Theorems
+-- Disjunction
+-- (3.32) 
+p : BOOLEAN
+q : BOOLEAN
+verify p or q <=> p or not q <=> p

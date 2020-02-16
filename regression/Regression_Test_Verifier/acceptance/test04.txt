@@ -1,0 +1,10 @@
+-- test uninitialized int variable declaration (with error)
+i : INTEGER
+j : INTEGER
+i0 : INTEGER
+k : INTEGER
+m : INTEGER
+m1 : INTEGER
+i0 : INTEGER
+m : INTEGER
+

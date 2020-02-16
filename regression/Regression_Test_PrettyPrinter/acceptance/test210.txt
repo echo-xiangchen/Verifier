@@ -1,0 +1,5 @@
+-- Gries Theorems
+-- Implication
+-- (3.75) 
+p : BOOLEAN
+verify false => p <=> true

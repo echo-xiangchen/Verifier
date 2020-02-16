@@ -1,0 +1,6 @@
+-- Gries Theorems
+-- Negation, Inequivalence, and false
+-- (3.15) 
+p : BOOLEAN
+q : BOOLEAN
+verify not p <=> p <=> false
