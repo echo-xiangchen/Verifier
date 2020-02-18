@@ -1,0 +1,6 @@
+Formula: (n < 0)
+Where: 
+    n : INTEGER = 45
+
+Is not a tautology. Here is a counter example: 
+    n : 45

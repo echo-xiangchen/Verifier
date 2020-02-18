@@ -1,0 +1,3 @@
+Formula: (((p => (q = r)) = (p and q)) = (p and r))
+Output of this formula has been stored in ./output/test197-formula01.txt
+

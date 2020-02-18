@@ -1,0 +1,11 @@
+Formula: ((not p) => (q and p))
+Output of this formula has been stored in ./output/test105-formula01.txt
+
+Formula: (p = ((((not q) and r) or s) => (not s)))
+Output of this formula has been stored in ./output/test105-formula02.txt
+
+Formula: (((not r0) and s1) => (not (k or r)))
+Output of this formula has been stored in ./output/test105-formula03.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <i> <j> <m> 

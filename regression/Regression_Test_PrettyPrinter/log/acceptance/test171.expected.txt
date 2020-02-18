@@ -1,0 +1,3 @@
+Formula: (((p or q) = (p or (not q))) = p)
+Output of this formula has been stored in ./output/test171-formula01.txt
+

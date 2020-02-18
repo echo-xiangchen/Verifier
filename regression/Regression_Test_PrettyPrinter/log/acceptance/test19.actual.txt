@@ -1,0 +1,12 @@
+Formula: (not p)
+Output of this formula has been stored in ./output/test19-formula01.txt
+
+Formula: (not q)
+Output of this formula has been stored in ./output/test19-formula02.txt
+
+Formula: (not s)
+Output of this formula has been stored in ./output/test19-formula03.txt
+
+Formula: (not r)
+Output of this formula has been stored in ./output/test19-formula04.txt
+

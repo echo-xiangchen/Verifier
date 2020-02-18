@@ -1,0 +1,9 @@
+Formula: (i = j)
+Output of this formula has been stored in ./output/test69-formula01.txt
+
+Formula: (n = 0)
+Output of this formula has been stored in ./output/test69-formula02.txt
+
+Formula: (m = n)
+Output of this formula has been stored in ./output/test69-formula03.txt
+

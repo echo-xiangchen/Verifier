@@ -1,0 +1,3 @@
+Formula: ((((((p or q) or r) and (p => s)) and (q => s)) and (r => s)) => s)
+Output of this formula has been stored in ./output/test221-formula01.txt
+

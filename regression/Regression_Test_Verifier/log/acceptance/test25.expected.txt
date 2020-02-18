@@ -1,0 +1,39 @@
+TypeChecker.varMap: {i=(types.IntType@13969fbe, logic.composite.Addition@6aaa5eb0), j=(types.IntType@3498ed, logic.composite.Multiplication@1a407d53), m=(types.IntType@3d8c7aca, logic.composite.Addition@5ebec15), (1 + 3)=(types.IntType@21bcffb5, null), ((j = i) => s)=(types.BoolType@380fb434, null), (not s1)=(types.BoolType@668bc3d5, null), (i * 2)=(types.IntType@3cda1055, null), p=(types.BoolType@7a5d012c, null), 1=(types.IntType@3fb6a447, null), (not p)=(types.BoolType@79b4d0f, null), 2=(types.IntType@6b2fad11, null), r=(types.BoolType@79698539, null), 3=(types.IntType@73f792cf, null), s=(types.BoolType@2ed94a8b, null), (not r)=(types.BoolType@38082d64, null), 4=(types.IntType@dfd3711, null), (not s)=(types.BoolType@42d3bd8b, null), 5=(types.IntType@26ba2a48, null), (3 * 4)=(types.IntType@5f2050f6, null), ((3 * 4) + 5)=(types.IntType@3b81a1bc, null), (j = i)=(types.BoolType@64616ca2, null), s1=(types.BoolType@13fee20c, logic.composite.Implication@4e04a765)}
+
+AntlrToLogic.varMap: {p=Bool, r=Bool, s=Bool, i=Int, j=Int, m=Int, s1=Bool}
+
+Formula: (not p)
+Where: 
+    p : BOOLEAN
+    i : INTEGER = (1 + 3)
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    i : 4
+
+Formula: (not r)
+Where: 
+    r : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    r : true
+
+Formula: (not s)
+Where: 
+    s : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    s : true
+
+Formula: (not s1)
+Where: 
+    s : BOOLEAN
+    i : INTEGER = (1 + 3)
+    j : INTEGER = (i * 2)
+    s1 : BOOLEAN = ((j = i) => s)
+
+Is not a tautology. Here is a counter example: 
+    s1 : true
+    j : 8
+    i : 4
+

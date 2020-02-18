@@ -1,0 +1,6 @@
+TypeChecker.varMap: {1=(types.IntType@2acf57e3, null), a=(types.IntArray@506e6d5e, null), 2=(types.IntType@96532d6, null), a[2]=(types.IntType@3796751b, null), (a[1] < a[2])=(types.BoolType@67b64c45, null), 9=(types.IntType@4411d970, null), a[1]=(types.IntType@6442b0a6, null)}
+
+AntlrToLogic.varMap: {a=IntArray}
+
+Formula: (a[1] < a[2]) is a tautology.
+

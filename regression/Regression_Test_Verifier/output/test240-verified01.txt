@@ -1,0 +1,10 @@
+Formula: a[1]
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    a : ARRAY[BOOLEAN] = << p, q, (p and q) >>
+
+Is not a tautology. Here is a counter example: 
+    a : Bool
+    q : false
+    p : false

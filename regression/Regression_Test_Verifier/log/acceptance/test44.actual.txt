@@ -1,0 +1,10 @@
+TypeChecker.varMap: {(i * j)=(types.IntType@380fb434, null), (p or q)=(types.BoolType@668bc3d5, null), (1 + 3)=(types.IntType@3cda1055, null), (i * 2)=(types.IntType@7a5d012c, null), (j < 20)=(types.BoolType@3fb6a447, null), (j >= m)=(types.BoolType@79b4d0f, null), (i > 0)=(types.BoolType@6b2fad11, null), (j >= i)=(types.BoolType@79698539, null), i=(types.IntType@73f792cf, logic.composite.Addition@2ed94a8b), j=(types.IntType@38082d64, logic.composite.Multiplication@dfd3711), m=(types.IntType@42d3bd8b, logic.composite.Addition@26ba2a48), 0=(types.IntType@5f2050f6, null), p=(types.BoolType@3b81a1bc, logic.composite.GreaterThan@64616ca2), (m > (i * j))=(types.BoolType@13fee20c, null), 1=(types.IntType@4e04a765, null), q=(types.BoolType@783e6358, logic.composite.GreaterOrEqual@17550481), 2=(types.IntType@735f7ae5, null), r=(types.UnknowType@180bc464, null), 3=(types.IntType@1324409e, null), s=(types.UnknowType@2c6a3f77, null), 4=(types.IntType@246ae04d, null), 5=(types.IntType@62043840, null), (3 * 4)=(types.IntType@5315b42e, null), ((3 * 4) + 5)=(types.IntType@2ef9b8bc, null), 20=(types.IntType@5d624da6, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, i=Int, j=Int, m=Int}
+
+(s <= 0)is not boolean type, cannot perform this assignment.
+Error: variable s has not been declared.
+Error: Type declaration of variable s is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable r is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable r in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable s in this expression is ambigous. Please make sure each variable is declared exactly once.

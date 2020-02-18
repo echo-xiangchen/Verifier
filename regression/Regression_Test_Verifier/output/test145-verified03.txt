@@ -1,0 +1,1 @@
+Formula: ((((not r0) and (s1 => ((not k) = r))) or ((i < (j - (m * 5))) and (m = 35))) or (k and (n <= ((m + i) + j)))) is a tautology.

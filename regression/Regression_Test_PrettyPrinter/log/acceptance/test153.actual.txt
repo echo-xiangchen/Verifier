@@ -1,0 +1,3 @@
+Formula: ((true = q) = q)
+Output of this formula has been stored in ./output/test153-formula01.txt
+

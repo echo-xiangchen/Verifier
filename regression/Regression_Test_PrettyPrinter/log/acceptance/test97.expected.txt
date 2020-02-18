@@ -1,0 +1,9 @@
+Formula: (((not p) and q) or s)
+Output of this formula has been stored in ./output/test97-formula01.txt
+
+Formula: (p => ((not q) and (s = r)))
+Output of this formula has been stored in ./output/test97-formula02.txt
+
+Formula: (((not s) or q) = (p = (q and r)))
+Output of this formula has been stored in ./output/test97-formula03.txt
+

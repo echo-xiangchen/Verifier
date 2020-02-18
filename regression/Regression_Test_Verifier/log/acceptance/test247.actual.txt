@@ -1,0 +1,6 @@
+TypeChecker.varMap: {0=(types.IntType@2acf57e3, null), 1=(types.IntType@506e6d5e, null), a=(types.IntArray@96532d6, null), 2=(types.IntType@3796751b, null), 9=(types.IntType@67b64c45, null), a[1]=(types.IntType@4411d970, null), (a[1] > 0)=(types.BoolType@6442b0a6, null)}
+
+AntlrToLogic.varMap: {a=IntArray}
+
+Formula: (a[1] > 0) is a tautology.
+

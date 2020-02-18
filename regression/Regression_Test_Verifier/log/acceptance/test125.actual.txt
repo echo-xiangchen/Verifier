@@ -1,0 +1,55 @@
+TypeChecker.varMap: {(m >= (i - j))=(types.BoolType@6b2fad11, null), (not k)=(types.BoolType@79698539, null), (not r0)=(types.BoolType@73f792cf, null), ((s1 => ((not k) and r)) or (i >= ((j - m) + (j * 2))))=(types.BoolType@2ed94a8b, null), ((j - m) + (j * 2))=(types.IntType@38082d64, null), ((not k) and r)=(types.BoolType@dfd3711, null), (q and (i >= (j + 1)))=(types.BoolType@42d3bd8b, null), (p => (m >= (i - j)))=(types.BoolType@26ba2a48, null), (i >= ((j - m) + (j * 2)))=(types.BoolType@5f2050f6, null), s1=(types.BoolType@3b81a1bc, null), (((not r) and (s or q)) = (p => (m >= (i - j))))=(types.BoolType@64616ca2, null), ((not r0) = ((s1 => ((not k) and r)) or (i >= ((j - m) + (j * 2)))))=(types.BoolType@13fee20c, null), (s or q)=(types.BoolType@4e04a765, null), i=(types.IntType@783e6358, null), j=(types.IntType@17550481, null), (s1 => ((not k) and r))=(types.BoolType@735f7ae5, null), k=(types.BoolType@180bc464, null), m=(types.IntType@1324409e, null), (i - j)=(types.IntType@2c6a3f77, null), p=(types.BoolType@246ae04d, null), q=(types.BoolType@62043840, null), 1=(types.IntType@5315b42e, null), r=(types.BoolType@2ef9b8bc, null), 2=(types.IntType@5d624da6, null), s=(types.BoolType@1e67b872, null), (not r)=(types.BoolType@60addb54, null), (p = (q and (i >= (j + 1))))=(types.BoolType@3f2a3a5, null), (i >= (j + 1))=(types.BoolType@4cb2c100, null), ((not r) and (s or q))=(types.BoolType@6fb554cc, null), (j + 1)=(types.IntType@614c5515, null), (j * 2)=(types.IntType@77b52d12, null), r0=(types.BoolType@2d554825, null), (j - m)=(types.IntType@68837a77, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, i=Int, j=Int, k=Bool, m=Int, s1=Bool, r0=Bool}
+
+Formula: (p = (q and (i >= (j + 1))))
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    i : INTEGER
+    j : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    q : false
+    i : 0
+    j : 0
+    p : true
+
+Formula: (((not r) and (s or q)) = (p => (m >= (i - j))))
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    r : BOOLEAN
+    s : BOOLEAN
+    i : INTEGER
+    j : INTEGER
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    r : false
+    m : -1
+    j : 0
+    i : 0
+    p : true
+    q : false
+    s : true
+
+Formula: ((not r0) = ((s1 => ((not k) and r)) or (i >= ((j - m) + (j * 2)))))
+Where: 
+    r : BOOLEAN
+    i : INTEGER
+    j : INTEGER
+    k : BOOLEAN
+    m : INTEGER
+    r0 : BOOLEAN
+    s1 : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    s1 : false
+    i : 0
+    j : 0
+    m : 0
+    k : false
+    r : false
+    r0 : true
+

@@ -1,0 +1,11 @@
+(declare-const i Int)
+(declare-const j Int)
+(declare-const l Bool)
+(declare-const m Int)
+(declare-const r0 Bool)
+(declare-const s1 Bool)
+(declare-const n Int)
+(assert (not (= (not r0) (=> (or (=> s1 (and (not l) (< n (+ m (* i j))))) (= i (- j m))) (>= n (- m i))))))
+(check-sat)
+;Uncomment the following line if the result of z3 online tool returns "sat"
+;(get-model)

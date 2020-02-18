@@ -1,0 +1,9 @@
+Error: Type declaration of variable r is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable r in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable r in this expression is ambigous. Please make sure each variable is declared exactly once.
+(t1 => s)is not boolean type, cannot perform this assignment.
+Error: variable s has not been declared.
+(p = t2)is not boolean type, cannot perform this assignment.
+Error: variable t2 has not been declared.
+Error: variable t3 has not been declared.
+Error: variable t2 has not been declared.

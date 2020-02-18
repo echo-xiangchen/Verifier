@@ -1,0 +1,3 @@
+Formula: (p = ((not p) => false))
+Output of this formula has been stored in ./output/test223-formula01.txt
+

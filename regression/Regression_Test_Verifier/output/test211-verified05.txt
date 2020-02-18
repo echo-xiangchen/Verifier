@@ -1,0 +1,1 @@
+Formula: ((p and q) => (p and (q or r))) is a tautology.

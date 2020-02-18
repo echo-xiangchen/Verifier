@@ -1,0 +1,12 @@
+TypeChecker.varMap: {23=(types.IntType@64616ca2, null), (not (m <= 0))=(types.BoolType@13fee20c, null), (not k)=(types.BoolType@4e04a765, null), (not (i <= m))=(types.BoolType@783e6358, null), (s1 => (not k))=(types.BoolType@17550481, null), (i <= m)=(types.BoolType@735f7ae5, null), s1=(types.BoolType@180bc464, logic.composite.BoolTrue@1324409e), 35=(types.IntType@2c6a3f77, null), (m <= 0)=(types.BoolType@246ae04d, null), ((s1 => (not k)) = r)=(types.BoolType@62043840, null), false=(types.BoolType@5315b42e, null), i=(types.IntType@2ef9b8bc, logic.composite.IntConst@5d624da6), j=(types.UnknowType@1e67b872, null), k=(types.BoolType@60addb54, logic.composite.BoolFalse@3f2a3a5), m=(types.IntType@4cb2c100, logic.composite.IntConst@6fb554cc), p=(types.BoolType@614c5515, logic.composite.BoolTrue@77b52d12), 0=(types.IntType@2d554825, null), 1=(types.IntType@68837a77, null), q=(types.UnknowType@6be46e8f, null), r=(types.BoolType@3567135c, logic.composite.BoolTrue@327471b5), s=(types.BoolType@4157f54e, logic.composite.BoolFalse@90f6bfd), (not r)=(types.BoolType@47f6473, null), 5=(types.IntType@15975490, null), true=(types.BoolType@6b143ee9, null), r0=(types.UnknowType@1936f0f5, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Int, r=Bool, s=Bool, i=Int, j=Bool, k=Bool, m=Int, s1=Bool, r0=Bool}
+
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: variable j has boolean type.
+Error: Type declaration of variable q is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable q in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable j has boolean type.
+Error: Type declaration of variable r0 is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable r0 in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable j has boolean type.

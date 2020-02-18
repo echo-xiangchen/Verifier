@@ -1,0 +1,6 @@
+TypeChecker.varMap: {2=(types.IntType@7e0ea639, null), (i = j)=(types.BoolType@3d24753a, null), i=(types.RealType@59a6e353, logic.composite.IntConst@7a0ac6e3), j=(types.IntType@71be98f5, logic.composite.IntConst@6fadae5d)}
+
+AntlrToLogic.varMap: {i=Real, j=Int}
+
+Formula: (i = j) is a tautology.
+

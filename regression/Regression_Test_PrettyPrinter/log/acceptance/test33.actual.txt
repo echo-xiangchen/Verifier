@@ -1,0 +1,8 @@
+Formula: (p and q)
+Output of this formula has been stored in ./output/test33-formula01.txt
+
+Formula: (((p and q) and r) and (not s))
+Output of this formula has been stored in ./output/test33-formula02.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <i> <j> <m> 

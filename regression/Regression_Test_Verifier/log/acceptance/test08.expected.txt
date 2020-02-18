@@ -1,0 +1,6 @@
+TypeChecker.varMap: {11=(types.IntType@5594a1b5, null), 12=(types.IntType@6a5fc7f7, null), 78=(types.IntType@3b6eb2ec, null), 34=(types.IntType@1e643faf, null), m0=(types.IntType@6e8dacdf, logic.composite.IntConst@7a79be86), m1=(types.IntType@34ce8af7, logic.composite.IntConst@b684286), j1=(types.IntType@880ec60, logic.composite.IntConst@3f3afe78), i0=(types.IntType@7f63425a, logic.composite.IntConst@36d64342), i=(types.IntType@39ba5a14, logic.composite.IntConst@511baa65), 1010=(types.IntType@340f438e, null), j=(types.UnknowType@30c7da1e, null), 1020=(types.IntType@5b464ce8, null), k=(types.UnknowType@57829d67, null), m=(types.IntType@19dfb72a, logic.composite.IntConst@17c68925), n=(types.IntType@7e0ea639, logic.composite.IntConst@3d24753a), 0=(types.IntType@59a6e353, null), 1=(types.IntType@7a0ac6e3, null), 100=(types.IntType@71be98f5, null), 2=(types.IntType@6fadae5d, null), 5=(types.IntType@17f6480, null), u=(types.IntType@2d6e8792, logic.composite.IntConst@2812cbfa), true=(types.BoolType@2acf57e3, null), 10=(types.IntType@506e6d5e, null)}
+
+AntlrToLogic.varMap: {m0=Int, m1=Int, u=Int, j1=Int, i0=Int, i=Int, j=Int, k=Int, m=Int, n=Int}
+
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable k is ambigous. Please make sure each variable is declared exactly once.

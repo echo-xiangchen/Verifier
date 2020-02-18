@@ -1,0 +1,4 @@
+(p or s)is not boolean type, cannot perform this assignment.
+Error: variable s has not been declared.
+(p = t)is not boolean type, cannot perform this assignment.
+Error: variable t has not been declared.

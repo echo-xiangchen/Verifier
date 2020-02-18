@@ -1,0 +1,9 @@
+TypeChecker.varMap: {0=(types.IntType@39ba5a14, null), 100=(types.IntType@511baa65, null), 45=(types.IntType@340f438e, null), 3=(types.IntType@30c7da1e, null), i=(types.IntType@5b464ce8, logic.composite.IntConst@57829d67), 9=(types.IntType@19dfb72a, null), j=(types.UnknowType@17c68925, null), m=(types.UnknowType@7e0ea639, null), n=(types.IntType@3d24753a, logic.composite.IntConst@59a6e353), 10=(types.IntType@7a0ac6e3, null)}
+
+AntlrToLogic.varMap: {i=Int, j=Int, m=Int, n=Int}
+
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable m is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable m in this expression is ambigous. Please make sure each variable is declared exactly once.

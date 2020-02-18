@@ -1,0 +1,37 @@
+TypeChecker.varMap: {p=(types.BoolType@b684286, null), (s = (not p))=(types.BoolType@880ec60, null), q=(types.BoolType@3f3afe78, null), (not p)=(types.BoolType@7f63425a, null), (q = (s = (not p)))=(types.BoolType@36d64342, null), (not q)=(types.BoolType@39ba5a14, null), (p = ((not s) = q))=(types.BoolType@511baa65, null), s=(types.BoolType@340f438e, null), (not s)=(types.BoolType@30c7da1e, null), ((q = (s = (not p))) = (not q))=(types.BoolType@5b464ce8, null), ((not p) = q)=(types.BoolType@57829d67, null), ((not s) = q)=(types.BoolType@19dfb72a, null), (((not p) = q) = s)=(types.BoolType@17c68925, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, s=Bool}
+
+Formula: (((not p) = q) = s)
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    s : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    p : false
+    q : true
+    s : false
+
+Formula: ((q = (s = (not p))) = (not q))
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    s : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    q : true
+    s : true
+    p : false
+
+Formula: (p = ((not s) = q))
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    s : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    s : false
+    q : false
+

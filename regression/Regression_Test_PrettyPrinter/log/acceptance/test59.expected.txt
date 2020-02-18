@@ -1,0 +1,12 @@
+Formula: (p = q)
+Output of this formula has been stored in ./output/test59-formula01.txt
+
+Formula: (((not p) = q) = (not q))
+Output of this formula has been stored in ./output/test59-formula02.txt
+
+Formula: (s = (p = (not q)))
+Output of this formula has been stored in ./output/test59-formula03.txt
+
+Formula: ((r = ((not p) = q)) = s)
+Output of this formula has been stored in ./output/test59-formula04.txt
+

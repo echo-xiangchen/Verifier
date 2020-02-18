@@ -1,0 +1,3 @@
+Formula: ((p or (p => q)) = true)
+Output of this formula has been stored in ./output/test203-formula01.txt
+

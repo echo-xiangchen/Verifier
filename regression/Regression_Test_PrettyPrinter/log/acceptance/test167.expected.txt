@@ -1,0 +1,3 @@
+Formula: (p or (not p))
+Output of this formula has been stored in ./output/test167-formula01.txt
+

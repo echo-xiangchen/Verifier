@@ -1,0 +1,8 @@
+(declare-const i Int)
+(assert (= i 3))
+(declare-const j Int)
+(assert (= j 0))
+(assert (not (> i j)))
+(check-sat)
+;Uncomment the following line if the result of z3 online tool returns "sat"
+;(get-model)

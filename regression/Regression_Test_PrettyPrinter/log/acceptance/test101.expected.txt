@@ -1,0 +1,12 @@
+Formula: ((q and (not p)) => (not q))
+Output of this formula has been stored in ./output/test101-formula01.txt
+
+Formula: ((r and t1) = ((not p) or q))
+Output of this formula has been stored in ./output/test101-formula02.txt
+
+Formula: (t1 => ((not r) and (p and q)))
+Output of this formula has been stored in ./output/test101-formula03.txt
+
+Formula: ((t3 and t2) => (not (t1 or (r => q))))
+Output of this formula has been stored in ./output/test101-formula04.txt
+

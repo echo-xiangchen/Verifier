@@ -1,0 +1,12 @@
+Formula: (p = (q and (i <= (j + 1))))
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    i : INTEGER
+    j : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    q : false
+    i : 0
+    j : 0
+    p : true

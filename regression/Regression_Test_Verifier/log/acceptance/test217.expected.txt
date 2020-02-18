@@ -1,0 +1,10 @@
+TypeChecker.varMap: {(p => r)=(types.BoolType@7f63425a, null), (p => q)=(types.BoolType@36d64342, null), (p = q)=(types.BoolType@39ba5a14, null), ((p => q) and (q => r))=(types.BoolType@511baa65, null), ((p => q) and (q = r))=(types.BoolType@340f438e, null), (((p = q) and (q => r)) => (p => r))=(types.BoolType@30c7da1e, null), p=(types.BoolType@5b464ce8, null), q=(types.BoolType@57829d67, null), r=(types.BoolType@19dfb72a, null), (((p => q) and (q = r)) => (p => r))=(types.BoolType@17c68925, null), (q => r)=(types.BoolType@7e0ea639, null), ((p = q) and (q => r))=(types.BoolType@3d24753a, null), (q = r)=(types.BoolType@59a6e353, null), (((p => q) and (q => r)) => (p => r))=(types.BoolType@7a0ac6e3, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool}
+
+Formula: (((p => q) and (q => r)) => (p => r)) is a tautology.
+
+Formula: (((p = q) and (q => r)) => (p => r)) is a tautology.
+
+Formula: (((p => q) and (q = r)) => (p => r)) is a tautology.
+

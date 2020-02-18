@@ -1,0 +1,13 @@
+TypeChecker.varMap: {((not p) and p)=(types.BoolType@57829d67, null), (q or p)=(types.BoolType@19dfb72a, null), (p and q)=(types.BoolType@17c68925, null), (p or q)=(types.BoolType@7e0ea639, null), (not t1)=(types.BoolType@3d24753a, null), p=(types.BoolType@59a6e353, logic.composite.BoolTrue@7a0ac6e3), (not p)=(types.BoolType@71be98f5, null), q=(types.BoolType@6fadae5d, logic.composite.Conjunction@17f6480), (not q)=(types.BoolType@2d6e8792, null), r=(types.UnknowType@2812cbfa, null), true=(types.BoolType@2acf57e3, null), ((not q) or (not p))=(types.BoolType@506e6d5e, null), t1=(types.BoolType@96532d6, logic.composite.Disjunction@3796751b), (((not q) or (not p)) or p)=(types.BoolType@67b64c45, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, t1=Bool, t2=Bool, t3=Bool}
+
+Error: Type declaration of variable r is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable r in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable r in this expression is ambigous. Please make sure each variable is declared exactly once.
+(t1 => s)is not boolean type, cannot perform this assignment.
+Error: variable s has not been declared.
+(p = t2)is not boolean type, cannot perform this assignment.
+Error: variable t2 has not been declared.
+Error: variable t3 has not been declared.
+Error: variable t2 has not been declared.

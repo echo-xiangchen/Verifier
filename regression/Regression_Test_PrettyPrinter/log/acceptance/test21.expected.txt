@@ -1,0 +1,5 @@
+Formula: (not q)
+Output of this formula has been stored in ./output/test21-formula01.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <p> <r> <t> 

@@ -1,0 +1,10 @@
+Formula: (m > (i + 2))
+Where: 
+    i : INTEGER = ((2 * 3) + 24)
+    j : INTEGER = ((i / 5) - 7)
+    m : INTEGER = ((i * j) / 2)
+
+Is not a tautology. Here is a counter example: 
+    j : -1
+    m : -15
+    i : 30

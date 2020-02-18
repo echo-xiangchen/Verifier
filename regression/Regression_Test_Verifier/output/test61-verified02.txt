@@ -1,0 +1,12 @@
+Formula: ((r = (t1 = (not p))) = q)
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = ((not p) = p)
+    r : BOOLEAN = (p => q)
+    t1 : BOOLEAN = (p or q)
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    q : false
+    r : false
+    t1 : true

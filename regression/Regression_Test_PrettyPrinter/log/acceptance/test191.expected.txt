@@ -1,0 +1,3 @@
+Formula: (((((((((p and q) and r) = p) = q) = r) = (p or q)) = (q or r)) = (r or p)) = ((p or q) or r))
+Output of this formula has been stored in ./output/test191-formula01.txt
+

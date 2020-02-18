@@ -1,0 +1,9 @@
+Formula: ((((not p) and q) => (i > (j * m))) = (k or ((m = (i - j)) and (not ((j / m) >= 120)))))
+Output of this formula has been stored in ./output/test143-formula01.txt
+
+Formula: ((((not r) and (s or q)) = (p => ((m = (i * j)) and r))) = (((m < i) or (not k)) => (i <= j)))
+Output of this formula has been stored in ./output/test143-formula02.txt
+
+Formula: ((not r0) = (((s1 => ((not l) and (n < (m + (i * j))))) or (i = (j - m))) => (n >= (m - i))))
+Output of this formula has been stored in ./output/test143-formula03.txt
+

@@ -1,0 +1,8 @@
+Formula: (m = n)
+Where: 
+    m : INTEGER = 100
+    n : INTEGER = 45
+
+Is not a tautology. Here is a counter example: 
+    n : 45
+    m : 100

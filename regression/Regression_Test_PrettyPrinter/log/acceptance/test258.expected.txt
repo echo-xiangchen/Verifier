@@ -1,0 +1,2 @@
+Error: variable a is not declared as a boolean array.
+Error: variable b is not declared as a boolean array.

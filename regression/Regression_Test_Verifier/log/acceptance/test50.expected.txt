@@ -1,0 +1,8 @@
+TypeChecker.varMap: {p=(types.BoolType@340f438e, logic.composite.BoolTrue@30c7da1e), q=(types.BoolType@5b464ce8, logic.composite.BoolFalse@57829d67), (not p)=(types.BoolType@19dfb72a, null), (r => ((not p) => q))=(types.BoolType@17c68925, null), (not q)=(types.BoolType@7e0ea639, null), r=(types.BoolType@3d24753a, logic.composite.BoolTrue@59a6e353), s=(types.UnknowType@7a0ac6e3, null), ((not p) => q)=(types.BoolType@71be98f5, null), true=(types.BoolType@6fadae5d, null), false=(types.BoolType@17f6480, null), k=(types.UnknowType@2d6e8792, null), (p => (not q))=(types.BoolType@2812cbfa, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, k=Bool}
+
+Error: Type declaration of variable k is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable k in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable s is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable s in this expression is ambigous. Please make sure each variable is declared exactly once.

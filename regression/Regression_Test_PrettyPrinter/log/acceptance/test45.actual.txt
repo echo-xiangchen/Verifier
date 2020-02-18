@@ -1,0 +1,5 @@
+Formula: (p or q)
+Output of this formula has been stored in ./output/test45-formula01.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <i> <j> <m> 

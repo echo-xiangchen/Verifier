@@ -1,0 +1,12 @@
+TypeChecker.varMap: {(s or q)=(types.BoolType@2ed94a8b, null), (i * j)=(types.IntType@38082d64, null), i=(types.IntType@dfd3711, null), j=(types.IntType@42d3bd8b, null), k=(types.UnknowType@26ba2a48, null), m=(types.UnknowType@5f2050f6, null), (not r0)=(types.BoolType@3b81a1bc, null), p=(types.UnknowType@64616ca2, null), q=(types.UnknowType@13fee20c, null), 1=(types.IntType@4e04a765, null), (q and (i <= (j + 1)))=(types.BoolType@783e6358, null), r=(types.BoolType@17550481, null), (i <= (j + 1))=(types.BoolType@735f7ae5, null), s=(types.BoolType@180bc464, null), (not r)=(types.BoolType@1324409e, null), ((not r) and (s or q))=(types.BoolType@2c6a3f77, null), (j + 1)=(types.IntType@246ae04d, null), s1=(types.BoolType@62043840, null), r0=(types.BoolType@5315b42e, null)}
+
+AntlrToLogic.varMap: {p=Int, q=Int, r=Bool, s=Bool, i=Int, j=Int, k=Int, m=Bool, s1=Bool, r0=Bool}
+
+Error: Type declaration of variable m is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable p is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable p in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable m has boolean type.
+Error: Type declaration of variable q is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable k is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable k in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable m has boolean type.

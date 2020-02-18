@@ -1,0 +1,12 @@
+Formula: (q => (not p))
+Output of this formula has been stored in ./output/test51-formula01.txt
+
+Formula: ((r => (t1 => (not p))) => q)
+Output of this formula has been stored in ./output/test51-formula02.txt
+
+Formula: (t1 => r)
+Output of this formula has been stored in ./output/test51-formula03.txt
+
+Formula: (t3 => (t2 => (not t1)))
+Output of this formula has been stored in ./output/test51-formula04.txt
+

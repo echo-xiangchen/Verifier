@@ -1,0 +1,6 @@
+Formula: (a[1] < a[2])
+Where: 
+    a : ARRAY[REAL]
+
+Is not a tautology. Here is a counter example: 
+    a : Real

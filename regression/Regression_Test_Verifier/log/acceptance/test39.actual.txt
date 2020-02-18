@@ -1,0 +1,12 @@
+TypeChecker.varMap: {((s or r) or p)=(types.BoolType@880ec60, null), false=(types.BoolType@3f3afe78, null), (p or q)=(types.BoolType@7f63425a, null), (((not s) or p) or q)=(types.BoolType@36d64342, null), p=(types.BoolType@39ba5a14, logic.composite.BoolTrue@511baa65), q=(types.BoolType@340f438e, logic.composite.BoolFalse@30c7da1e), (not p)=(types.BoolType@5b464ce8, null), (not q)=(types.BoolType@57829d67, null), r=(types.BoolType@19dfb72a, logic.composite.BoolTrue@17c68925), s=(types.BoolType@7e0ea639, logic.composite.BoolFalse@3d24753a), (((not p) or q) or (not q))=(types.BoolType@59a6e353, null), (not s)=(types.BoolType@7a0ac6e3, null), true=(types.BoolType@71be98f5, null), (s or r)=(types.BoolType@6fadae5d, null), ((not p) or q)=(types.BoolType@17f6480, null), (((s or r) or p) or q)=(types.BoolType@2d6e8792, null), ((not s) or p)=(types.BoolType@2812cbfa, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool}
+
+Formula: (p or q) is a tautology.
+
+Formula: (((not p) or q) or (not q)) is a tautology.
+
+Formula: (((not s) or p) or q) is a tautology.
+
+Formula: (((s or r) or p) or q) is a tautology.
+

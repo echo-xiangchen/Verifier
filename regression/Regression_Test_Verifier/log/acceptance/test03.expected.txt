@@ -1,0 +1,6 @@
+TypeChecker.varMap: {m1=(types.IntType@2752f6e2, null), i0=(types.IntType@e580929, null), true=(types.BoolType@1cd072a9, null), i=(types.IntType@7c75222b, null), j=(types.IntType@4c203ea1, null), k=(types.IntType@27f674d, null), m=(types.IntType@1d251891, null)}
+
+AntlrToLogic.varMap: {m1=Int, i0=Int, i=Int, j=Int, k=Int, m=Int}
+
+Formula: true is a tautology.
+

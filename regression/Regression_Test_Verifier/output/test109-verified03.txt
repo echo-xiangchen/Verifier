@@ -1,0 +1,1 @@
+Formula: ((m * j) <= (m + 45)) is a tautology.

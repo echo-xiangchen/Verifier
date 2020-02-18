@@ -1,0 +1,10 @@
+TypeChecker.varMap: {(m * j)=(types.IntType@6bf256fa, null), 45=(types.IntType@6cd8737, null), 48=(types.IntType@22f71333, null), (m + 45)=(types.IntType@13969fbe, null), (i * j)=(types.IntType@6aaa5eb0, null), i=(types.UnknowType@3498ed, null), j=(types.IntType@1a407d53, logic.composite.IntConst@3d8c7aca), k=(types.IntType@5ebec15, logic.composite.IntConst@21bcffb5), m=(types.UnknowType@380fb434, null), 1=(types.IntType@668bc3d5, null), (m * 9)=(types.IntType@3cda1055, null), 2=(types.IntType@7a5d012c, null), 5=(types.IntType@3fb6a447, null), (j + 5)=(types.IntType@79b4d0f, null), ((i * j) = (j + 5))=(types.BoolType@6b2fad11, null), 7=(types.IntType@79698539, null), (j + 48)=(types.IntType@73f792cf, null), 9=(types.IntType@2ed94a8b, null), 10=(types.IntType@38082d64, null)}
+
+AntlrToLogic.varMap: {i=Int, j=Int, k=Int, m=Int}
+
+Error: Type declaration of variable i is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable i in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable i in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable m is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable m in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable i in this expression is ambigous. Please make sure each variable is declared exactly once.

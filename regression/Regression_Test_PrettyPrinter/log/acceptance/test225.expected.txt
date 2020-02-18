@@ -1,0 +1,3 @@
+Formula: Forall p,q;((p => q) = ((not p) or q))
+Output of this formula has been stored in ./output/test225-formula01.txt
+

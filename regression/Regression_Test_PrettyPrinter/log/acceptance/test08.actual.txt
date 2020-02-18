@@ -1,0 +1,2 @@
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable k is ambigous. Please make sure each variable is declared exactly once.

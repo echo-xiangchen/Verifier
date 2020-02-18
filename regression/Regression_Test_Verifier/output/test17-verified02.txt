@@ -1,0 +1,6 @@
+Formula: (not q)
+Where: 
+    q : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    q : true

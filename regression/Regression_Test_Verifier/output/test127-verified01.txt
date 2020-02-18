@@ -1,0 +1,14 @@
+Formula: (p = ((q and (i >= j)) or (not (m >= 0))))
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = false
+    i : INTEGER = 5
+    j : INTEGER = 1
+    m : INTEGER = 35
+
+Is not a tautology. Here is a counter example: 
+    m : 35
+    j : 1
+    i : 5
+    q : false
+    p : true

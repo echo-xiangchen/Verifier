@@ -1,0 +1,7 @@
+TypeChecker.varMap: {1=(types.IntType@3ac3fd8b, null)}
+
+AntlrToLogic.varMap: {a=BoolArray}
+
+Error: variable p has not been declared.
+Error: variable q has not been declared.
+Error: variable a has not been declared.

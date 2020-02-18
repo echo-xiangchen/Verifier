@@ -1,0 +1,1 @@
+Formula: ((not r0) = ((s1 => ((not k) and r)) or (i > (j - m)))) is a tautology.

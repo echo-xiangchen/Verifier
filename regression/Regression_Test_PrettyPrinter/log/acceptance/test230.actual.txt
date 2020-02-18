@@ -1,0 +1,3 @@
+Formula: (i >= 0)
+Output of this formula has been stored in ./output/test230-formula01.txt
+

@@ -1,0 +1,6 @@
+TypeChecker.varMap: {a=(types.UnknowType@34ce8af7, null), 1=(types.IntType@b684286, null)}
+
+AntlrToLogic.varMap: {a=BoolArray}
+
+Error: Type declaration of variable a is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable a in this expression is ambigous. Please make sure each variable is declared exactly once.

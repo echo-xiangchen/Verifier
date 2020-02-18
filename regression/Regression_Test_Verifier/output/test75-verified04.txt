@@ -1,0 +1,8 @@
+Formula: (j > m)
+Where: 
+    j : INTEGER = 0
+    m : INTEGER = 100
+
+Is not a tautology. Here is a counter example: 
+    m : 100
+    j : 0

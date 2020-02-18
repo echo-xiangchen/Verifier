@@ -1,0 +1,31 @@
+TypeChecker.varMap: {(m = n)=(types.BoolType@39ba5a14, null), (k = m)=(types.BoolType@511baa65, null), (i = j)=(types.BoolType@340f438e, null), i=(types.IntType@30c7da1e, null), j=(types.IntType@5b464ce8, null), k=(types.IntType@57829d67, null), m=(types.IntType@19dfb72a, null), n=(types.IntType@17c68925, null)}
+
+AntlrToLogic.varMap: {i=Int, j=Int, k=Int, m=Int, n=Int}
+
+Formula: (i = j)
+Where: 
+    i : INTEGER
+    j : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    j : 0
+    i : 1
+
+Formula: (k = m)
+Where: 
+    k : INTEGER
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    m : 0
+    k : 1
+
+Formula: (m = n)
+Where: 
+    m : INTEGER
+    n : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    n : 0
+    m : 1
+

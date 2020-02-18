@@ -1,0 +1,1 @@
+Formula: ((p and (p => q)) = (p and q)) is a tautology.

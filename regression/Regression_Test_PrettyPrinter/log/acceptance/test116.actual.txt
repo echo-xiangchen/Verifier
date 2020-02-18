@@ -1,0 +1,7 @@
+Error: Type declaration of variable m is ambigous. Please make sure each variable is declared exactly once.
+Error: variable m has boolean type.
+Error: Type declaration of variable q is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable q in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable m has boolean type.
+Error: variable m has boolean type.
+Error: Type declaration of variable s is ambigous. Please make sure each variable is declared exactly once.

@@ -1,0 +1,10 @@
+Formula: ((k + i) < (m * 9))
+Where: 
+    i : INTEGER
+    k : INTEGER
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    m : 0
+    i : 0
+    k : 0

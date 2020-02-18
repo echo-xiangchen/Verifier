@@ -1,0 +1,3 @@
+Formula: (((p = q) = q) = p)
+Output of this formula has been stored in ./output/test152-formula01.txt
+

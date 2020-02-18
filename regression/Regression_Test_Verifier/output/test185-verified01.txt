@@ -1,0 +1,1 @@
+Formula: (((p and q) = (p and (not q))) = (not p)) is a tautology.

@@ -1,0 +1,21 @@
+TypeChecker.varMap: {((i > j) or (not (m > 0)))=(types.BoolType@38082d64, null), (q and ((i > j) or (not (m > 0))))=(types.BoolType@dfd3711, null), (q and p)=(types.BoolType@42d3bd8b, null), (i * j)=(types.IntType@26ba2a48, null), (12 * 2)=(types.IntType@5f2050f6, null), ((5 * 6) - 9)=(types.IntType@3b81a1bc, null), (m > 0)=(types.BoolType@64616ca2, null), (35 - (12 * 2))=(types.IntType@13fee20c, null), (5 * 6)=(types.IntType@4e04a765, null), (not (i > m))=(types.BoolType@783e6358, null), ((p => (m > (i * j))) and (not (i > m)))=(types.BoolType@17550481, null), 12=(types.IntType@735f7ae5, null), 35=(types.IntType@180bc464, null), (p = (q and ((i > j) or (not (m > 0)))))=(types.BoolType@1324409e, null), (i > j)=(types.BoolType@2c6a3f77, null), (s or q)=(types.BoolType@246ae04d, null), (p => (m > (i * j)))=(types.BoolType@62043840, null), i=(types.IntType@5315b42e, logic.composite.Subtraction@2ef9b8bc), j=(types.IntType@5d624da6, logic.composite.Addition@1e67b872), m=(types.IntType@60addb54, logic.composite.Subtraction@3f2a3a5), p=(types.BoolType@4cb2c100, logic.composite.BoolTrue@6fb554cc), 0=(types.IntType@614c5515, null), (m > (i * j))=(types.BoolType@77b52d12, null), 1=(types.IntType@2d554825, null), (1 + 9)=(types.IntType@68837a77, null), (not p)=(types.BoolType@6be46e8f, null), q=(types.BoolType@3567135c, logic.composite.Negation@327471b5), 2=(types.IntType@4157f54e, null), r=(types.BoolType@90f6bfd, logic.composite.Implication@47f6473), ((not p) => (q and p))=(types.BoolType@15975490, null), s=(types.BoolType@6b143ee9, logic.composite.Iff@1936f0f5), (not r)=(types.BoolType@6615435c, null), 5=(types.IntType@4909b8da, null), 6=(types.IntType@3a03464, null), true=(types.BoolType@2d3fcdbd, null), (r and p)=(types.BoolType@617c74e5, null), (i > m)=(types.BoolType@6537cf78, null), (((not r) and (s or q)) = ((p => (m > (i * j))) and (not (i > m))))=(types.BoolType@67b6d4ae, null), 9=(types.IntType@34b7bfc0, null), ((not r) and (s or q))=(types.BoolType@366e2eef, null), ((r and p) = (q and p))=(types.BoolType@6df97b55, null), (not (m > 0))=(types.BoolType@3cbbc1e0, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, i=Int, j=Int, m=Int}
+
+Formula: (p = (q and ((i > j) or (not (m > 0)))))
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = (not p)
+    i : INTEGER = ((5 * 6) - 9)
+    j : INTEGER = (1 + 9)
+    m : INTEGER = (35 - (12 * 2))
+
+Is not a tautology. Here is a counter example: 
+    m : 11
+    j : 10
+    i : 21
+    q : false
+    p : true
+
+Formula: (((not r) and (s or q)) = ((p => (m > (i * j))) and (not (i > m)))) is a tautology.
+

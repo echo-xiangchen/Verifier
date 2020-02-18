@@ -1,0 +1,26 @@
+TypeChecker.varMap: {(q and (not p))=(types.BoolType@5b464ce8, null), (t1 => q)=(types.BoolType@57829d67, null), (((r and t1) and (not p)) and q)=(types.BoolType@19dfb72a, null), (t1 and r)=(types.BoolType@17c68925, null), (t3 and t2)=(types.BoolType@7e0ea639, null), (p and q)=(types.BoolType@3d24753a, null), (p or q)=(types.BoolType@59a6e353, null), (not t1)=(types.BoolType@7a0ac6e3, null), p=(types.BoolType@71be98f5, logic.composite.BoolTrue@6fadae5d), ((t3 and t2) and (not t1))=(types.BoolType@17f6480, null), (not p)=(types.BoolType@2d6e8792, null), q=(types.BoolType@2812cbfa, logic.composite.Disjunction@2acf57e3), r=(types.BoolType@506e6d5e, logic.composite.Conjunction@96532d6), (r and t1)=(types.BoolType@3796751b, null), true=(types.BoolType@67b64c45, null), ((r and t1) and (not p))=(types.BoolType@4411d970, null), t1=(types.BoolType@6442b0a6, logic.composite.Disjunction@60f82f98), ((not p) or p)=(types.BoolType@35f983a6, null), t2=(types.BoolType@7f690630, logic.composite.Implication@edf4efb), (p = t2)=(types.BoolType@2f7a2457, null), t3=(types.BoolType@566776ad, logic.composite.Iff@6108b2d7)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, t1=Bool, t2=Bool, t3=Bool}
+
+Formula: (q and (not p))
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = ((not p) or p)
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    q : true
+
+Formula: (((r and t1) and (not p)) and q)
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = ((not p) or p)
+    r : BOOLEAN = (p and q)
+    t1 : BOOLEAN = (p or q)
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    q : true
+    r : true
+    t1 : true
+

@@ -1,0 +1,30 @@
+TypeChecker.varMap: {(p => q)=(types.BoolType@511baa65, null), (((not p) => q) => (not q))=(types.BoolType@340f438e, null), false=(types.BoolType@30c7da1e, null), ((r => ((not p) => q)) => s)=(types.BoolType@5b464ce8, null), p=(types.BoolType@57829d67, logic.composite.BoolTrue@19dfb72a), q=(types.BoolType@17c68925, logic.composite.BoolFalse@7e0ea639), (not p)=(types.BoolType@3d24753a, null), (r => ((not p) => q))=(types.BoolType@59a6e353, null), (not q)=(types.BoolType@7a0ac6e3, null), r=(types.BoolType@71be98f5, logic.composite.BoolTrue@6fadae5d), s=(types.BoolType@17f6480, logic.composite.BoolFalse@2d6e8792), (s => (p => (not q)))=(types.BoolType@2812cbfa, null), ((not p) => q)=(types.BoolType@2acf57e3, null), true=(types.BoolType@506e6d5e, null), (p => (not q))=(types.BoolType@96532d6, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool}
+
+Formula: (p => q)
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = false
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    q : false
+
+Formula: (((not p) => q) => (not q)) is a tautology.
+
+Formula: (s => (p => (not q))) is a tautology.
+
+Formula: ((r => ((not p) => q)) => s)
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = false
+    r : BOOLEAN = true
+    s : BOOLEAN = false
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    q : false
+    r : true
+    s : false
+

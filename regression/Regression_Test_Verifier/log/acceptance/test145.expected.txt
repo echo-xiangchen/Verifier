@@ -1,0 +1,23 @@
+TypeChecker.varMap: {((not (m = 0)) and (not q))=(types.BoolType@5315b42e, null), (((not r0) and (s1 => ((not k) = r))) or ((i < (j - (m * 5))) and (m = 35)))=(types.BoolType@2ef9b8bc, null), ((i < (j - (m * 5))) and (m = 35))=(types.BoolType@5d624da6, null), (not r0)=(types.BoolType@1e67b872, null), (not q)=(types.BoolType@60addb54, null), (m * 5)=(types.IntType@3f2a3a5, null), s1=(types.BoolType@4cb2c100, logic.composite.BoolTrue@6fb554cc), (q and (i >= j))=(types.BoolType@614c5515, null), (m + i)=(types.IntType@77b52d12, null), (not (m = 0))=(types.BoolType@2d554825, null), 0=(types.IntType@68837a77, null), ((i + j) = m)=(types.BoolType@6be46e8f, null), 1=(types.IntType@3567135c, null), ((not r0) and (s1 => ((not k) = r)))=(types.BoolType@327471b5, null), 5=(types.IntType@4157f54e, null), (m = 35)=(types.BoolType@90f6bfd, null), (((q and (i >= j)) or ((not (m = 0)) and (not q))) => ((i <= j) or (j > (m + i))))=(types.BoolType@47f6473, null), ((not r) and (s or (q and ((i + j) = m))))=(types.BoolType@15975490, null), ((((not r0) and (s1 => ((not k) = r))) or ((i < (j - (m * 5))) and (m = 35))) or (k and (n <= ((m + i) + j))))=(types.BoolType@6b143ee9, null), ((m = (i * j)) and (not (i >= (m * j))))=(types.BoolType@1936f0f5, null), true=(types.BoolType@6615435c, null), (((not r) and (s or (q and ((i + j) = m)))) = (p => ((m = (i * j)) and (not (i >= (m * j))))))=(types.BoolType@4909b8da, null), (s or (q and ((i + j) = m)))=(types.BoolType@3a03464, null), ((not k) = r)=(types.BoolType@2d3fcdbd, null), (p = (((q and (i >= j)) or ((not (m = 0)) and (not q))) => ((i <= j) or (j > (m + i)))))=(types.BoolType@617c74e5, null), ((m + i) + j)=(types.IntType@6537cf78, null), (i * j)=(types.IntType@67b6d4ae, null), (not k)=(types.BoolType@34b7bfc0, null), (j > (m + i))=(types.BoolType@366e2eef, null), (k and (n <= ((m + i) + j)))=(types.BoolType@6df97b55, null), (p => ((m = (i * j)) and (not (i >= (m * j)))))=(types.BoolType@3cbbc1e0, null), (i < (j - (m * 5)))=(types.BoolType@35fb3008, null), (i >= j)=(types.BoolType@7225790e, null), (n <= ((m + i) + j))=(types.BoolType@54a097cc, null), (m * j)=(types.IntType@36f6e879, null), 35=(types.IntType@5a61f5df, null), (i >= (m * j))=(types.BoolType@3551a94, null), false=(types.BoolType@531be3c5, null), i=(types.IntType@52af6cff, logic.composite.IntConst@735b478), j=(types.IntType@2c9f9fb0, logic.composite.IntConst@2096442d), (m = (i * j))=(types.BoolType@9f70c54, null), k=(types.BoolType@234bef66, logic.composite.BoolFalse@737996a0), m=(types.IntType@61dc03ce, logic.composite.IntConst@50f8360d), (i + j)=(types.IntType@2cb4c3ab, null), n=(types.IntType@13c78c0b, null), (m = 0)=(types.BoolType@12843fce, null), p=(types.BoolType@3dd3bcd, logic.composite.BoolTrue@97e1986), (j - (m * 5))=(types.IntType@26f67b76, null), q=(types.BoolType@153f5a29, logic.composite.BoolFalse@7f560810), r=(types.BoolType@69d9c55, logic.composite.BoolTrue@13a57a3b), s=(types.BoolType@7ca48474, logic.composite.BoolFalse@337d0578), (not r)=(types.BoolType@59e84876, null), (not (i >= (m * j)))=(types.BoolType@61a485d2, null), (s1 => ((not k) = r))=(types.BoolType@39fb3ab6, null), (i <= j)=(types.BoolType@6276ae34, null), ((i <= j) or (j > (m + i)))=(types.BoolType@7946e1f4, null), (q and ((i + j) = m))=(types.BoolType@3c09711b, null), r0=(types.BoolType@5cc7c2a6, logic.composite.BoolFalse@b97c004), ((q and (i >= j)) or ((not (m = 0)) and (not q)))=(types.BoolType@4590c9c3, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, i=Int, j=Int, k=Bool, m=Int, s1=Bool, r0=Bool, n=Int}
+
+Formula: (p = (((q and (i >= j)) or ((not (m = 0)) and (not q))) => ((i <= j) or (j > (m + i)))))
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = false
+    i : INTEGER = 5
+    j : INTEGER = 1
+    m : INTEGER = 35
+
+Is not a tautology. Here is a counter example: 
+    m : 35
+    j : 1
+    i : 5
+    q : false
+    p : true
+
+Formula: (((not r) and (s or (q and ((i + j) = m)))) = (p => ((m = (i * j)) and (not (i >= (m * j)))))) is a tautology.
+
+Formula: ((((not r0) and (s1 => ((not k) = r))) or ((i < (j - (m * 5))) and (m = 35))) or (k and (n <= ((m + i) + j)))) is a tautology.
+

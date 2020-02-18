@@ -1,0 +1,9 @@
+Formula: (((not p) or q) or s)
+Output of this formula has been stored in ./output/test37-formula01.txt
+
+Formula: (((q or s) or (not p)) or (not q))
+Output of this formula has been stored in ./output/test37-formula02.txt
+
+Formula: ((p or (not s)) or q)
+Output of this formula has been stored in ./output/test37-formula03.txt
+

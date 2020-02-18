@@ -1,0 +1,22 @@
+TypeChecker.varMap: {p=(types.BoolType@3ac3fd8b, logic.composite.BoolTrue@5594a1b5), q=(types.BoolType@6a5fc7f7, logic.composite.BoolFalse@3b6eb2ec), (not p)=(types.BoolType@1e643faf, null), (not q)=(types.BoolType@6e8dacdf, null), r=(types.BoolType@7a79be86, logic.composite.BoolTrue@34ce8af7), s=(types.BoolType@b684286, logic.composite.BoolFalse@880ec60), (not r)=(types.BoolType@3f3afe78, null), (not s)=(types.BoolType@7f63425a, null), true=(types.BoolType@36d64342, null), false=(types.BoolType@39ba5a14, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool}
+
+Formula: (not p)
+Where: 
+    p : BOOLEAN = true
+
+Is not a tautology. Here is a counter example: 
+    p : true
+
+Formula: (not q) is a tautology.
+
+Formula: (not s) is a tautology.
+
+Formula: (not r)
+Where: 
+    r : BOOLEAN = true
+
+Is not a tautology. Here is a counter example: 
+    r : true
+

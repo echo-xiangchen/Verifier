@@ -1,0 +1,6 @@
+Formula: a[1]
+Where: 
+    a : ARRAY[BOOLEAN]
+
+Is not a tautology. Here is a counter example: 
+    a : Bool

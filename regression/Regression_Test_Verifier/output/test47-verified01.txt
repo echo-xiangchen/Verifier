@@ -1,0 +1,10 @@
+Formula: (((not p) => q) => s)
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    s : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    s : false
+    p : true
+    q : false

@@ -1,0 +1,5 @@
+Formula: (a[i] > 0)
+Output of this formula has been stored in ./output/test241-formula01.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <i> 

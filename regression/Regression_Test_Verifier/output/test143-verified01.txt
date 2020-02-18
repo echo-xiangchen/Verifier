@@ -1,0 +1,16 @@
+Formula: ((((not p) and q) => (i > (j * m))) = (k or ((m = (i - j)) and (not ((j / m) >= 120)))))
+Where: 
+    p : BOOLEAN
+    q : BOOLEAN
+    i : INTEGER
+    j : INTEGER
+    k : BOOLEAN
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    i : -1
+    j : -1
+    k : false
+    m : 2
+    q : true
+    p : false

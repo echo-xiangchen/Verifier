@@ -1,0 +1,1 @@
+Formula: ((p or (q or r)) = ((p or q) or (p or r))) is a tautology.

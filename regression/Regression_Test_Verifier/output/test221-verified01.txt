@@ -1,0 +1,1 @@
+Formula: ((((((p or q) or r) and (p => s)) and (q => s)) and (r => s)) => s) is a tautology.

@@ -1,0 +1,3 @@
+Formula: ((p and (q = p)) = (p and q))
+Output of this formula has been stored in ./output/test187-formula01.txt
+

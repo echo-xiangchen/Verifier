@@ -1,0 +1,1 @@
+Formula: (((s or r) or p) or q) is a tautology.

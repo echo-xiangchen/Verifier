@@ -1,0 +1,9 @@
+Error: variable n has not been declared.
+Error: Type declaration of variable p is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable p in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: Type declaration of variable n is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable n in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable j has boolean type.
+Error: variable j has boolean type.
+Error: Type of variable n in this expression is ambigous. Please make sure each variable is declared exactly once.

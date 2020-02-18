@@ -1,0 +1,6 @@
+TypeChecker.varMap: {(2 * 3)=(types.IntType@3796751b, null), 24=(types.IntType@67b64c45, null), i=(types.IntType@4411d970, logic.composite.Addition@6442b0a6), j=(types.UnknowType@60f82f98, null), ((2 * 3) + 24)=(types.IntType@35f983a6, null), ((i / 5) - 7)=(types.IntType@7f690630, null), ((3 * i) - 5)=(types.IntType@edf4efb, null), 2=(types.IntType@2f7a2457, null), 3=(types.IntType@566776ad, null), 5=(types.IntType@6108b2d7, null), 7=(types.IntType@1554909b, null), (i / 5)=(types.IntType@6bf256fa, null), (3 * i)=(types.IntType@6cd8737, null)}
+
+AntlrToLogic.varMap: {i=Int, j=Int}
+
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.

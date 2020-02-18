@@ -1,0 +1,20 @@
+TypeChecker.varMap: {((6 * 3) - 2)=(types.IntType@17f6480, null), false=(types.BoolType@2d6e8792, null), (6 * 3)=(types.IntType@2812cbfa, null), (4 * 3)=(types.IntType@2acf57e3, null), m=(types.IntType@506e6d5e, logic.composite.Addition@96532d6), p=(types.UnknowType@3796751b, null), 2=(types.IntType@67b64c45, null), 3=(types.IntType@4411d970, null), 4=(types.IntType@6442b0a6, null), 5=(types.IntType@60f82f98, null), (3 * 4)=(types.IntType@35f983a6, null), 6=(types.IntType@7f690630, null), x=(types.IntType@edf4efb, logic.composite.Subtraction@2f7a2457), z=(types.UnknowType@566776ad, null), ((3 * 4) + 5)=(types.IntType@6108b2d7, null)}
+
+AntlrToLogic.varMap: {m0=Int, k1=Int, x=Int, i=Int, y=Int, j=Int, z=Int, k=Int, m=Int}
+
+(p + 3) is not integer type, cannot perform this assignment.
+Error: variable p has not been declared.
+(i * 2) is not integer type, cannot perform this assignment.
+Error: variable i has not been declared.
+(p - 2) is not integer type, cannot perform this assignment.
+Error: variable p has not been declared.
+(i + (j / m)) is not integer type, cannot perform this assignment.
+Error: variable i has not been declared.
+Error: variable j has not been declared.
+((i * 4) / j) is not integer type, cannot perform this assignment.
+Error: variable i has not been declared.
+Error: variable j has not been declared.
+((z * x) + 5) is not integer type, cannot perform this assignment.
+Error: variable z has not been declared.
+((x + y) - (4 * 3)) is not integer type, cannot perform this assignment.
+Error: variable y has not been declared.

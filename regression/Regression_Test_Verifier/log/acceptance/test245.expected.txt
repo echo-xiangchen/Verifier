@@ -1,0 +1,13 @@
+TypeChecker.varMap: {(a[1] > b[2])=(types.BoolType@2acf57e3, null), a=(types.IntArray@506e6d5e, null), 1=(types.IntType@96532d6, null), b=(types.IntArray@3796751b, null), 2=(types.IntType@67b64c45, null), b[2]=(types.IntType@4411d970, null), a[1]=(types.IntType@6442b0a6, null)}
+
+AntlrToLogic.varMap: {a=IntArray, b=IntArray}
+
+Formula: (a[1] > b[2])
+Where: 
+    a : ARRAY[INTEGER]
+    b : ARRAY[INTEGER]
+
+Is not a tautology. Here is a counter example: 
+    b : Int
+    a : Int
+

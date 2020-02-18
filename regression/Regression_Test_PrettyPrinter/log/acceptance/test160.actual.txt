@@ -1,0 +1,3 @@
+Formula: ((not false) = true)
+Output of this formula has been stored in ./output/test160-formula01.txt
+

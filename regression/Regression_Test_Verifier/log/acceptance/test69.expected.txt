@@ -1,0 +1,29 @@
+TypeChecker.varMap: {0=(types.IntType@19dfb72a, null), 100=(types.IntType@17c68925, null), 45=(types.IntType@7e0ea639, null), (m = n)=(types.BoolType@3d24753a, null), 3=(types.IntType@59a6e353, null), (i = j)=(types.BoolType@7a0ac6e3, null), i=(types.IntType@71be98f5, logic.composite.IntConst@6fadae5d), j=(types.IntType@17f6480, logic.composite.IntConst@2d6e8792), (n = 0)=(types.BoolType@2812cbfa, null), m=(types.IntType@2acf57e3, logic.composite.IntConst@506e6d5e), n=(types.IntType@96532d6, logic.composite.IntConst@3796751b)}
+
+AntlrToLogic.varMap: {i=Int, j=Int, m=Int, n=Int}
+
+Formula: (i = j)
+Where: 
+    i : INTEGER = 3
+    j : INTEGER = 0
+
+Is not a tautology. Here is a counter example: 
+    j : 0
+    i : 3
+
+Formula: (n = 0)
+Where: 
+    n : INTEGER = 45
+
+Is not a tautology. Here is a counter example: 
+    n : 45
+
+Formula: (m = n)
+Where: 
+    m : INTEGER = 100
+    n : INTEGER = 45
+
+Is not a tautology. Here is a counter example: 
+    n : 45
+    m : 100
+

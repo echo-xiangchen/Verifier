@@ -1,0 +1,6 @@
+(declare-const a (Array Int Int))
+(declare-const i Int)
+(assert (not (> (select a i) 0)))
+(check-sat)
+;Uncomment the following line if the result of z3 online tool returns "sat"
+;(get-model)

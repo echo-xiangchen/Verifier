@@ -1,0 +1,1 @@
+Formula: (p or q) is a tautology.

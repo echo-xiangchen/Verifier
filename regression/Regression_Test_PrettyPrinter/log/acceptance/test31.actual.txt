@@ -1,0 +1,12 @@
+Formula: (q and (not p))
+Output of this formula has been stored in ./output/test31-formula01.txt
+
+Formula: (((r and t1) and (not p)) and q)
+Output of this formula has been stored in ./output/test31-formula02.txt
+
+Formula: (t1 and r)
+Output of this formula has been stored in ./output/test31-formula03.txt
+
+Formula: ((t3 and t2) and (not t1))
+Output of this formula has been stored in ./output/test31-formula04.txt
+

@@ -1,0 +1,14 @@
+Error: variable k has not been declared.
+Error: Type declaration of variable i is ambigous. Please make sure each variable is declared exactly once.
+Error: variable i has boolean type.
+Error: variable i has boolean type.
+(i <= (j - 3))is not boolean type, cannot perform this assignment.
+Error: variable i has boolean type.
+(m = (i * (j + 5)))is not boolean type, cannot perform this assignment.
+Error: variable i has boolean type.
+(i <= (m - 7))is not boolean type, cannot perform this assignment.
+Error: variable i has boolean type.
+Error: variable r0 is not declared as boolean type.
+Error: variable s1 has not been declared.
+Error: Type of variable k in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable i has boolean type.

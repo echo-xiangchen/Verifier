@@ -1,0 +1,6 @@
+((3 * 16) + (5 * k)) is not integer type, cannot perform this assignment.
+Error: variable k has not been declared.
+((i > j) or (m = (i * j)))is not boolean type, cannot perform this assignment.
+Error: variable m has not been declared.
+Error: variable q has not been declared.
+Error: variable s has not been declared.

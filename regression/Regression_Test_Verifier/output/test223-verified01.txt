@@ -1,0 +1,1 @@
+Formula: (p = ((not p) => false)) is a tautology.

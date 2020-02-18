@@ -1,0 +1,11 @@
+TypeChecker.varMap: {0=(types.IntType@2acf57e3, null), a=(types.IntArray@506e6d5e, null), 1=(types.IntType@96532d6, null), a[1]=(types.IntType@3796751b, null), (a[1] > 0)=(types.BoolType@67b64c45, null)}
+
+AntlrToLogic.varMap: {a=IntArray}
+
+Formula: (a[1] > 0)
+Where: 
+    a : ARRAY[INTEGER]
+
+Is not a tautology. Here is a counter example: 
+    a : Int
+

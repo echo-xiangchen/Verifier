@@ -1,0 +1,8 @@
+Formula: (q and s)
+Where: 
+    q : BOOLEAN
+    s : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    q : false
+    s : false

@@ -1,0 +1,5 @@
+TypeChecker.varMap: {0=(types.IntType@2acf57e3, null), 1=(types.IntType@506e6d5e, null), a=(types.IntArray@96532d6, null), a[1.6]=(types.IntType@3796751b, null), 2=(types.IntType@67b64c45, null), 9=(types.IntType@4411d970, null), 1.6=(types.RealType@6442b0a6, null)}
+
+AntlrToLogic.varMap: {a=IntArray}
+
+1.6 is not integer type, cannot use it as array index value.

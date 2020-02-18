@@ -1,0 +1,3 @@
+Formula: ((p or false) = p)
+Output of this formula has been stored in ./output/test169-formula01.txt
+

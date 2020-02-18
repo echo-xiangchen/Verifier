@@ -1,0 +1,3 @@
+Formula: (a[1] > b[4])
+Output of this formula has been stored in ./output/test257-formula01.txt
+

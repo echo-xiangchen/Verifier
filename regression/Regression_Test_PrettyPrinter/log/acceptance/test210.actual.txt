@@ -1,0 +1,3 @@
+Formula: ((false => p) = true)
+Output of this formula has been stored in ./output/test210-formula01.txt
+

@@ -1,0 +1,53 @@
+TypeChecker.varMap: {(m * j)=(types.IntType@1554909b, null), 45=(types.IntType@6bf256fa, null), (j + i)=(types.IntType@6cd8737, null), 48=(types.IntType@22f71333, null), (m > (j + i))=(types.BoolType@13969fbe, null), (m + 45)=(types.IntType@6aaa5eb0, null), (i * j)=(types.IntType@3498ed, null), i=(types.IntType@1a407d53, null), j=(types.IntType@3d8c7aca, null), k=(types.IntType@5ebec15, null), m=(types.IntType@21bcffb5, null), (i >= (j + 48))=(types.BoolType@380fb434, null), (m * 9)=(types.IntType@668bc3d5, null), (k + i)=(types.IntType@3cda1055, null), ((k + i) < (m * 9))=(types.BoolType@7a5d012c, null), 5=(types.IntType@3fb6a447, null), (j + 5)=(types.IntType@79b4d0f, null), ((i * j) = (j + 5))=(types.BoolType@6b2fad11, null), (j + 48)=(types.IntType@79698539, null), 9=(types.IntType@73f792cf, null), ((m * j) <= (m + 45))=(types.BoolType@2ed94a8b, null)}
+
+AntlrToLogic.varMap: {i=Int, j=Int, k=Int, m=Int}
+
+Formula: ((i * j) = (j + 5))
+Where: 
+    i : INTEGER
+    j : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    j : -7
+    i : 2
+
+Formula: (i >= (j + 48))
+Where: 
+    i : INTEGER
+    j : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    i : -1
+    j : -48
+
+Formula: ((m * j) <= (m + 45))
+Where: 
+    j : INTEGER
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    m : -26
+    j : -64
+
+Formula: ((k + i) < (m * 9))
+Where: 
+    i : INTEGER
+    k : INTEGER
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    m : 0
+    i : 0
+    k : 0
+
+Formula: (m > (j + i))
+Where: 
+    i : INTEGER
+    j : INTEGER
+    m : INTEGER
+
+Is not a tautology. Here is a counter example: 
+    m : 0
+    i : 0
+    j : 0
+

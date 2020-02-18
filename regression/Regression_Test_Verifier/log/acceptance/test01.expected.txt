@@ -1,0 +1,11 @@
+TypeChecker.varMap: {p=(types.BoolType@48140564, null), q=(types.BoolType@58ceff1, null), (not p)=(types.BoolType@7c30a502, null), r=(types.BoolType@49e4cb85, null), s=(types.BoolType@2133c8f8, null), t=(types.BoolType@43a25848, null), x=(types.BoolType@3ac3fd8b, null), y=(types.BoolType@5594a1b5, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, t=Bool, x=Bool, y=Bool}
+
+Formula: (not p)
+Where: 
+    p : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    p : true
+

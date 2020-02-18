@@ -1,0 +1,1 @@
+Formula: ((p or p) = p) is a tautology.

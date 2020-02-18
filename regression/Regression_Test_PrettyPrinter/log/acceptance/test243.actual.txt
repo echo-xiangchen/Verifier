@@ -1,0 +1,3 @@
+Formula: (a[1] > 0)
+Output of this formula has been stored in ./output/test243-formula01.txt
+

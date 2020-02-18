@@ -1,0 +1,26 @@
+TypeChecker.varMap: {((i * 3) - 7)=(types.IntType@5f2050f6, null), 16=(types.IntType@3b81a1bc, null), ((3 * 16) + 5)=(types.IntType@64616ca2, null), 17=(types.IntType@13fee20c, null), (m < i)=(types.BoolType@4e04a765, null), i=(types.IntType@783e6358, logic.composite.Addition@17550481), j=(types.UnknowType@735f7ae5, null), (m + (5 * 9))=(types.IntType@180bc464, null), m=(types.IntType@1324409e, logic.composite.Addition@2c6a3f77), (1 + 3)=(types.IntType@246ae04d, null), p=(types.BoolType@62043840, null), 1=(types.IntType@5315b42e, null), q=(types.BoolType@2ef9b8bc, null), (not p)=(types.BoolType@5d624da6, null), 3=(types.IntType@1e67b872, null), 5=(types.IntType@60addb54, null), 7=(types.IntType@3f2a3a5, null), (i * 3)=(types.IntType@4cb2c100, null), (m = 17)=(types.BoolType@6fb554cc, null), 9=(types.IntType@614c5515, null), (5 * 9)=(types.IntType@77b52d12, null), (3 * 16)=(types.IntType@2d554825, null), 20=(types.IntType@68837a77, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, i=Int, j=Int, k=Bool, m=Int, s1=Bool, r0=Bool}
+
+(i * j) is not integer type, cannot perform this assignment.
+Error: variable j has not been declared.
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+((j >= m) and (not p))is not boolean type, cannot perform this assignment.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.
+((j < 20) or (m = 17))is not boolean type, cannot perform this assignment.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable r has not been declared.
+Error: variable s has not been declared.
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+((j = i) => s)is not boolean type, cannot perform this assignment.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable s has not been declared.
+((i = j) = s1)is not boolean type, cannot perform this assignment.
+Error: Type of variable j in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable s1 has not been declared.
+((m < i) and (not r))is not boolean type, cannot perform this assignment.
+Error: variable r has not been declared.
+Error: variable r0 has not been declared.
+Error: variable s1 has not been declared.
+Error: variable k has not been declared.
+Error: variable r has not been declared.

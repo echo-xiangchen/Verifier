@@ -1,0 +1,7 @@
+TypeChecker.varMap: {p=(types.BoolType@5594a1b5, null), (not p)=(types.BoolType@6a5fc7f7, null), q=(types.BoolType@3b6eb2ec, null), (p and (not s))=(types.BoolType@1e643faf, null), s=(types.BoolType@6e8dacdf, null), (not s)=(types.BoolType@7a79be86, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, s=Bool}
+
+Error: variable q has not been declared.
+Error: variable q has not been declared.
+Error: variable s has not been declared.

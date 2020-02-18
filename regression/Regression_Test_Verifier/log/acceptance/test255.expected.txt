@@ -1,0 +1,11 @@
+TypeChecker.varMap: {a=(types.RealArray@67b64c45, null), 1=(types.IntType@4411d970, null), 2=(types.IntType@6442b0a6, null), 1.0=(types.RealType@60f82f98, null), 9.8=(types.RealType@35f983a6, null), (a[1] > a[2])=(types.BoolType@7f690630, null), 2.1=(types.RealType@edf4efb, null), a[2]=(types.RealType@2f7a2457, null), a[1]=(types.RealType@566776ad, null)}
+
+AntlrToLogic.varMap: {a=RealArray}
+
+Formula: (a[1] > a[2])
+Where: 
+    a : ARRAY[REAL] = << 1.0, 2.1, 9.8 >>
+
+Is not a tautology. Here is a counter example: 
+    a : Real
+

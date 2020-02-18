@@ -1,0 +1,9 @@
+Formula: (p = (((q and (i >= j)) or ((not (m = 0)) and (not q))) => ((i <= j) or (j > (m + i)))))
+Output of this formula has been stored in ./output/test145-formula01.txt
+
+Formula: (((not r) and (s or (q and ((i + j) = m)))) = (p => ((m = (i * j)) and (not (i >= (m * j))))))
+Output of this formula has been stored in ./output/test145-formula02.txt
+
+Formula: ((((not r0) and (s1 => ((not k) = r))) or ((i < (j - (m * 5))) and (m = 35))) or (k and (n <= ((m + i) + j))))
+Output of this formula has been stored in ./output/test145-formula03.txt
+

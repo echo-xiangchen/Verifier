@@ -1,0 +1,10 @@
+TypeChecker.varMap: {p=(types.BoolType@19dfb72a, null), q=(types.UnknowType@17c68925, null), (not p)=(types.BoolType@7e0ea639, null), r=(types.BoolType@3d24753a, null), s=(types.BoolType@59a6e353, null), (not s)=(types.BoolType@7a0ac6e3, null), ((not p) and q)=(types.BoolType@71be98f5, null), (s = r)=(types.BoolType@6fadae5d, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool}
+
+Error: variable s has not been declared.
+Error: Type declaration of variable q is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable q in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable q in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: Type of variable q in this expression is ambigous. Please make sure each variable is declared exactly once.
+Error: variable k has not been declared.

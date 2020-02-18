@@ -1,0 +1,8 @@
+Formula: (not p)
+Where: 
+    p : BOOLEAN
+    i : INTEGER = (1 + 3)
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    i : 4

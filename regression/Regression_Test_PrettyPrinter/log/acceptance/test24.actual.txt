@@ -1,0 +1,5 @@
+((k * 4) + 5) is not integer type, cannot perform this assignment.
+Error: variable k has not been declared.
+(j >= m)is not boolean type, cannot perform this assignment.
+Error: variable m has not been declared.
+Error: variable r has not been declared.

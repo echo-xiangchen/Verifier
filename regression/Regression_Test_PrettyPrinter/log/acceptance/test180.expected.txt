@@ -1,0 +1,6 @@
+Formula: ((p and (p or q)) = p)
+Output of this formula has been stored in ./output/test180-formula01.txt
+
+Formula: ((p or (p and q)) = p)
+Output of this formula has been stored in ./output/test180-formula02.txt
+

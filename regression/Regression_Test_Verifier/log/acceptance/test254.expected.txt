@@ -1,0 +1,5 @@
+TypeChecker.varMap: {a=(types.RealArray@340f438e, null), 1=(types.IntType@30c7da1e, null), b=(types.IntArray@5b464ce8, null)}
+
+AntlrToLogic.varMap: {a=RealArray, b=IntArray}
+
+Error: variable a is not declared as a boolean array.

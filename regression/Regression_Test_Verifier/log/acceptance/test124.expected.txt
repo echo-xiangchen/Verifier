@@ -1,0 +1,18 @@
+TypeChecker.varMap: {(m < 0)=(types.BoolType@4e04a765, null), (q and p)=(types.BoolType@783e6358, null), (not k)=(types.BoolType@17550481, null), (12 * 2)=(types.IntType@735f7ae5, null), ((5 * 6) - 9)=(types.IntType@180bc464, null), ((not k) and r)=(types.BoolType@1324409e, null), (35 - (12 * 2))=(types.IntType@2c6a3f77, null), (5 * 6)=(types.IntType@246ae04d, null), (not (m < 0))=(types.BoolType@62043840, null), 12=(types.IntType@5315b42e, null), 35=(types.IntType@2ef9b8bc, null), (s or q)=(types.BoolType@5d624da6, null), (i < (m - 7))=(types.BoolType@1e67b872, null), false=(types.BoolType@60addb54, null), i=(types.IntType@3f2a3a5, logic.composite.Subtraction@4cb2c100), j=(types.UnknowType@6fb554cc, null), k=(types.BoolType@614c5515, logic.composite.LessThan@77b52d12), m=(types.IntType@2d554825, logic.composite.Subtraction@68837a77), p=(types.BoolType@6be46e8f, logic.composite.BoolTrue@3567135c), 0=(types.IntType@327471b5, null), 1=(types.IntType@4157f54e, null), (1 + 9)=(types.IntType@90f6bfd, null), (not p)=(types.BoolType@47f6473, null), q=(types.BoolType@15975490, logic.composite.Negation@6b143ee9), (m - 7)=(types.IntType@1936f0f5, null), 2=(types.IntType@6615435c, null), r=(types.BoolType@4909b8da, logic.composite.Implication@3a03464), ((not p) => (q and p))=(types.BoolType@2d3fcdbd, null), s=(types.BoolType@617c74e5, logic.composite.Iff@6537cf78), (not r)=(types.BoolType@67b6d4ae, null), 3=(types.IntType@34b7bfc0, null), 5=(types.IntType@366e2eef, null), 6=(types.IntType@6df97b55, null), 7=(types.IntType@3cbbc1e0, null), true=(types.BoolType@35fb3008, null), (r and p)=(types.BoolType@7225790e, null), 9=(types.IntType@54a097cc, null), ((not r) and (s or q))=(types.BoolType@36f6e879, null), ((r and p) = (q and p))=(types.BoolType@5a61f5df, null), (i < m)=(types.BoolType@3551a94, null), (not (i < m))=(types.BoolType@531be3c5, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Int, r=Bool, s=Int, i=Int, j=Bool, k=Bool, m=Int, s1=Bool, r0=Bool}
+
+Error: Type declaration of variable j is ambigous. Please make sure each variable is declared exactly once.
+Error: variable j has boolean type.
+(i + j) is not integer type, cannot perform this assignment.
+Error: variable j has boolean type.
+Error: variable j has boolean type.
+(i < (j - 3))is not boolean type, cannot perform this assignment.
+Error: variable j has boolean type.
+(m = (i * (j + 5)))is not boolean type, cannot perform this assignment.
+Error: variable j has boolean type.
+(m + (i * j)) is not integer type, cannot perform this assignment.
+Error: variable j has boolean type.
+Error: variable r0 has not been declared.
+Error: variable s1 has not been declared.
+Error: variable j has boolean type.

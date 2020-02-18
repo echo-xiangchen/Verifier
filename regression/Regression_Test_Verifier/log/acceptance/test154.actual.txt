@@ -1,0 +1,6 @@
+TypeChecker.varMap: {true=(types.BoolType@1fbc7afb, null)}
+
+AntlrToLogic.varMap: {}
+
+Formula: true is a tautology.
+

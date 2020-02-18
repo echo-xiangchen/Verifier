@@ -1,0 +1,15 @@
+TypeChecker.varMap: {(2 * 3)=(types.IntType@3796751b, null), (m < (i + 2))=(types.BoolType@67b64c45, null), 24=(types.IntType@4411d970, null), (i < j)=(types.BoolType@6442b0a6, null), ((i * j) / 2)=(types.IntType@60f82f98, null), (i * j)=(types.IntType@35f983a6, null), i=(types.IntType@7f690630, logic.composite.Addition@edf4efb), j=(types.IntType@2f7a2457, logic.composite.Subtraction@566776ad), ((2 * 3) + 24)=(types.IntType@6108b2d7, null), ((i / 5) - 7)=(types.IntType@1554909b, null), m=(types.IntType@6bf256fa, logic.composite.Division@6cd8737), 2=(types.IntType@22f71333, null), 3=(types.IntType@13969fbe, null), 5=(types.IntType@6aaa5eb0, null), (i + 2)=(types.IntType@3498ed, null), 7=(types.IntType@1a407d53, null), (i / 5)=(types.IntType@3d8c7aca, null)}
+
+AntlrToLogic.varMap: {i=Int, j=Int, m=Int}
+
+Formula: (i < j)
+Where: 
+    i : INTEGER = ((2 * 3) + 24)
+    j : INTEGER = ((i / 5) - 7)
+
+Is not a tautology. Here is a counter example: 
+    j : -1
+    i : 30
+
+Formula: (m < (i + 2)) is a tautology.
+

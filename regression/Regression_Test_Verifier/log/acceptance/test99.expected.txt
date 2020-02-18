@@ -1,0 +1,17 @@
+TypeChecker.varMap: {(q and p)=(types.BoolType@17c68925, null), ((not p) and q)=(types.BoolType@7e0ea639, null), false=(types.BoolType@3d24753a, null), k=(types.BoolType@59a6e353, logic.composite.BoolTrue@7a0ac6e3), p=(types.BoolType@71be98f5, logic.composite.BoolTrue@6fadae5d), q=(types.BoolType@17f6480, logic.composite.BoolFalse@2d6e8792), (not p)=(types.BoolType@2812cbfa, null), (not q)=(types.BoolType@2acf57e3, null), ((not p) => (q and p))=(types.BoolType@506e6d5e, null), (((not q) and p) => ((not p) and q))=(types.BoolType@96532d6, null), true=(types.BoolType@3796751b, null), (k = (((not q) and p) => ((not p) and q)))=(types.BoolType@67b64c45, null), ((not q) and p)=(types.BoolType@4411d970, null)}
+
+AntlrToLogic.varMap: {p=Bool, q=Bool, k=Bool}
+
+Formula: ((not p) => (q and p)) is a tautology.
+
+Formula: (k = (((not q) and p) => ((not p) and q)))
+Where: 
+    p : BOOLEAN = true
+    q : BOOLEAN = false
+    k : BOOLEAN = true
+
+Is not a tautology. Here is a counter example: 
+    p : true
+    q : false
+    k : true
+

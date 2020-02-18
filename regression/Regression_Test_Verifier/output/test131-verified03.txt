@@ -1,0 +1,18 @@
+Formula: ((not r0) = ((s1 => ((not k) and r)) or (i <= (j - m))))
+Where: 
+    r : BOOLEAN
+    i : INTEGER
+    j : INTEGER
+    k : BOOLEAN
+    m : INTEGER
+    r0 : BOOLEAN
+    s1 : BOOLEAN
+
+Is not a tautology. Here is a counter example: 
+    s1 : false
+    i : 0
+    j : 0
+    m : 0
+    k : false
+    r : false
+    r0 : true

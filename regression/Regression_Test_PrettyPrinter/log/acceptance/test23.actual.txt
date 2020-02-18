@@ -1,0 +1,11 @@
+Formula: (not p)
+Output of this formula has been stored in ./output/test23-formula01.txt
+
+Formula: (not r)
+Output of this formula has been stored in ./output/test23-formula02.txt
+
+Formula: (not s)
+Output of this formula has been stored in ./output/test23-formula03.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <i> <j> <m> 

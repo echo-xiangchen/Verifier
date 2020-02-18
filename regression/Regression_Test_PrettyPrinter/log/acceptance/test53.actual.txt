@@ -1,0 +1,8 @@
+Formula: (p => (q => (not p)))
+Output of this formula has been stored in ./output/test53-formula01.txt
+
+Formula: (((p => q) => r) => (not s))
+Output of this formula has been stored in ./output/test53-formula02.txt
+
+Warning: The following variable(s) are declared but never used: 
+  <i> <j> <m> 
