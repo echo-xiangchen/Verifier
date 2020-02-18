@@ -11,12 +11,18 @@ then
 	# if the first argument is "-h", print the help message
 	if [ $1 == "-h" ]
 	then
-		echo "-p: For Pretty Printing, where you could achieve an output file for each 
-        formula that could be recognized by the z3 online tool"
-		echo "-v: For Verification, where you could test if the formula is a tautology. 
-        If it's not a tautology, you could also get a counter example."
-		echo "-r: For regression testing, where you could perform the acceptance test 
-        on a series of test cases."
+		echo
+		echo "verifier [version 1.0]."
+		echo
+		echo "Usage: verifier [options] [-file:]file"
+		echo
+		echo "Options:"
+		echo "-p: For Pretty Printing."
+		echo "	Where you could achieve an output file for each formula that could be recognized by the z3 online tool."
+		echo "-v: For Verification."
+		echo "	Where you could test if the formula is a tautology. If it's not a tautology, you could also get a counter example."
+		echo "-r: For Regression testing."
+		echo "	Where you could perform the acceptance test on a series of test cases."
     # if the first argument is "-p" - pretty printing
     elif [ $1 == "-p" ]
     then
