@@ -37,7 +37,7 @@ then
     		echo "Below is the output for pretty printing of file: $2"
     		echo "==================================================================="
     		# run the JAR file
-            java -jar $verifier_jar $1 $2
+            java -jar verifier.jar $1 $2
         # if there is no input file
         else
         	echo "Now start executing the JAR file............."
@@ -45,7 +45,7 @@ then
     		echo "You did not include an input file, please start typing your input below:"
     		echo "==================================================================="
             # run the JAR file    
-            java -jar $verifier_jar $1
+            java -jar verifier.jar $1
         fi
     # if the first argument is "-v" - verification
     elif [ $1 == "-v" ]; then
@@ -58,7 +58,7 @@ then
     		echo "Below is the output for verification of file: $2"
     		echo "==================================================================="
     		# run the JAR file
-            java -jar $verifier_jar $1 $2
+            java -jar verifier.jar $1 $2
         # if there is no input file
         else
         	echo "Now start executing the JAR file............."
@@ -66,7 +66,7 @@ then
     		echo "You did not include an input file, please start typing your input below:"
     		echo "==================================================================="
             # run the JAR file    
-            java -jar $verifier_jar $1
+            java -jar verifier.jar $1
         fi
     # if the first argument is "-r" - regression testing
     elif [ $1 == "-r" ]; then
