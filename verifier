@@ -14,7 +14,7 @@ then
 		echo
 		echo "verifier [version 1.0]."
 		echo
-		echo "Usage: verifier [options] [-file:]file"
+		echo "Usage: verifier Options [file]"
 		echo
 		echo "Options:"
 		echo "-p: For Pretty Printing."
@@ -23,6 +23,7 @@ then
 		echo "	Where you could test if the formula is a tautology. If it's not a tautology, you could also get a counter example."
 		echo "-r: For Regression testing."
 		echo "	Where you could perform the acceptance test on a series of test cases."
+        echo "When no file is passed, the verifier is run in an interactive mode."
     # if the first argument is "-p" - pretty printing
     elif [ $1 == "-p" ]
     then
