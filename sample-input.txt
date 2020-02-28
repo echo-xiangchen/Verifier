@@ -9,4 +9,4 @@ verify p or (q and r) => p or q
 i : INTEGER
 j : REAL = 1
 verify i >= j and j >= i <=> i = j + 1
-verify true => forall x: REAL | x < 0 => x < -1
+verify true => forall x: REAL; | x < 0 => x < -1
