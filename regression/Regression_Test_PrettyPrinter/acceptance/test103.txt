@@ -1,4 +1,4 @@
--- test propositional logic with initialized boolean variable declaration with relational value (no error)
+-- test propositional verifier with initialized boolean variable declaration with relational value (no error)
 i : INTEGER = 1 + 3
 j : INTEGER = 2
 m : INTEGER = 3 * 4 + 5
