@@ -1,9 +1,0 @@
-Formula: (i <= j)
-Output of this formula has been stored in ./output/test91-formula01.txt
-
-Formula: (k <= m)
-Output of this formula has been stored in ./output/test91-formula02.txt
-
-Formula: (m <= n)
-Output of this formula has been stored in ./output/test91-formula03.txt
-

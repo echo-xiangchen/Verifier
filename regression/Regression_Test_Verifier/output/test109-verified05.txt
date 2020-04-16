@@ -1,1 +1,0 @@
-Formula: (m > (j + i)) is a tautology.

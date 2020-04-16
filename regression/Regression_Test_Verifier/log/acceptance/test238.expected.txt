@@ -1,5 +1,0 @@
-TypeChecker.varMap: {1=(types.IntType@4c203ea1, null)}
-
-AntlrToLogic.varMap: {}
-
-Error: variable a has not been declared.

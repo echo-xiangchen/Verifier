@@ -1,3 +1,0 @@
-Error: variable p has not been declared.
-Error: variable q has not been declared.
-Error: variable a has not been declared.

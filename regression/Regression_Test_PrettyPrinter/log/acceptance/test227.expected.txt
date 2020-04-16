@@ -1,3 +1,0 @@
-Formula: Forall m,n;((m => n) = ((m or n) = n))
-Output of this formula has been stored in ./output/test227-formula01.txt
-

@@ -1,9 +1,0 @@
-Formula: (p = (q and (i > (j + 1))))
-Output of this formula has been stored in ./output/test113-formula01.txt
-
-Formula: (((not r) and (s or q)) = (p => (m > (i * j))))
-Output of this formula has been stored in ./output/test113-formula02.txt
-
-Formula: ((not r0) = ((s1 => ((not k) and r)) or (i > (j - m))))
-Output of this formula has been stored in ./output/test113-formula03.txt
-

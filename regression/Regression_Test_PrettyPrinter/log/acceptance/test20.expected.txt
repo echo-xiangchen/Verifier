@@ -1,3 +1,0 @@
-Error: variable q has not been declared.
-Error: Type declaration of variable r is ambigous. Please make sure each variable is declared exactly once.
-Error: variable k has not been declared.

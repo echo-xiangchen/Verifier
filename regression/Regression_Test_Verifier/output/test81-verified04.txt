@@ -1,1 +1,0 @@
-Formula: (j < m) is a tautology.

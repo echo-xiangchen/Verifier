@@ -1,6 +1,0 @@
-TypeChecker.varMap: {r=(types.BoolType@7f63425a, null), s=(types.BoolType@36d64342, null), (r and s)=(types.BoolType@39ba5a14, null), (r => s)=(types.BoolType@511baa65, null), ((r and s) = r)=(types.BoolType@340f438e, null), ((r => s) = ((r and s) = r))=(types.BoolType@30c7da1e, null)}
-
-AntlrToLogic.varMap: {}
-
-Formula: Forall r,s;((r => s) = ((r and s) = r)) is a tautology.
-

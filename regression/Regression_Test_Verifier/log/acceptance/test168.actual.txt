@@ -1,6 +1,0 @@
-TypeChecker.varMap: {p=(types.BoolType@7a79be86, null), (p or true)=(types.BoolType@34ce8af7, null), true=(types.BoolType@b684286, null), ((p or true) = true)=(types.BoolType@880ec60, null)}
-
-AntlrToLogic.varMap: {p=Bool}
-
-Formula: ((p or true) = true) is a tautology.
-

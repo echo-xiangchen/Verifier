@@ -1,5 +1,0 @@
-(declare-const a (Array Int Real))
-(assert (not (< (select a 1) (select a 2))))
-(check-sat)
-;Uncomment the following line if the result of z3 online tool returns "sat"
-;(get-model)

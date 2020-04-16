@@ -25,10 +25,10 @@ ignore_warnings = True
 is_expected = False
 
 # Specify where you put the oracle.
-oracle = "./verifier.jar"
+oracle = "./TestLogicVer.jar"
 
 # Specify the path of the executable built from your project.
-executable = "./verifier.jar"
+executable = "./TestLogicVer.jar"
 # The above is an OSX executable
 # Linux executable for students shaler be called: oracle.exe
 

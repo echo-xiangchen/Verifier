@@ -1,8 +1,0 @@
-Formula: (a[1] > b[2])
-Where: 
-    a : ARRAY[INTEGER]
-    b : ARRAY[INTEGER]
-
-Is not a tautology. Here is a counter example: 
-    b : Int
-    a : Int

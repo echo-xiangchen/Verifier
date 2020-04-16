@@ -1,3 +1,0 @@
-Formula: (i <= j)
-Output of this formula has been stored in ./output/test95-formula01.txt
-

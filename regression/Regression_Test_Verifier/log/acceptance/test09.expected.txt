@@ -1,6 +1,0 @@
-TypeChecker.varMap: {(p => q)=(types.BoolType@5b464ce8, null), (p = q)=(types.BoolType@57829d67, null), m1=(types.BoolType@19dfb72a, logic.composite.Conjunction@17c68925), m2=(types.BoolType@7e0ea639, logic.composite.Disjunction@3d24753a), ((not p) and q)=(types.BoolType@59a6e353, null), m3=(types.BoolType@7a0ac6e3, logic.composite.Implication@71be98f5), (p and q)=(types.BoolType@6fadae5d, null), m4=(types.BoolType@17f6480, logic.composite.Iff@2d6e8792), (p or q)=(types.BoolType@2812cbfa, null), p=(types.BoolType@2acf57e3, logic.composite.BoolTrue@506e6d5e), (not p)=(types.BoolType@96532d6, null), q=(types.BoolType@3796751b, logic.composite.Negation@67b64c45), r=(types.BoolType@4411d970, logic.composite.Conjunction@6442b0a6), (not r)=(types.BoolType@60f82f98, null), ((not p) => q)=(types.BoolType@35f983a6, null), true=(types.BoolType@7f690630, null), ((not p) or q)=(types.BoolType@edf4efb, null), ((not p) = q)=(types.BoolType@2f7a2457, null), t1=(types.BoolType@566776ad, logic.composite.Disjunction@6108b2d7), t2=(types.BoolType@1554909b, logic.composite.Implication@6bf256fa), t3=(types.BoolType@6cd8737, logic.composite.Iff@22f71333)}
-
-AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, m1=Bool, m2=Bool, m3=Bool, m4=Bool, t1=Bool, t2=Bool, t3=Bool}
-
-Formula: (not r) is a tautology.
-

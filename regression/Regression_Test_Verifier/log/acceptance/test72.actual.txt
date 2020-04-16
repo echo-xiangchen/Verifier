@@ -1,9 +1,0 @@
-TypeChecker.varMap: {(2 * 3)=(types.IntType@4411d970, null), 24=(types.IntType@6442b0a6, null), (m + 30)=(types.IntType@60f82f98, null), (i = j)=(types.BoolType@35f983a6, null), ((i * j) / 2)=(types.IntType@7f690630, null), (i * j)=(types.IntType@edf4efb, null), i=(types.UnknowType@2f7a2457, null), j=(types.IntType@566776ad, logic.composite.Subtraction@6108b2d7), ((2 * 3) + 24)=(types.IntType@1554909b, null), k=(types.UnknowType@6bf256fa, null), ((i / 5) - 7)=(types.IntType@6cd8737, null), m=(types.IntType@22f71333, logic.composite.Division@13969fbe), 2=(types.IntType@6aaa5eb0, null), (m * 8)=(types.IntType@3498ed, null), 3=(types.IntType@1a407d53, null), 5=(types.IntType@3d8c7aca, null), 6=(types.IntType@5ebec15, null), 7=(types.IntType@21bcffb5, null), (j + 6)=(types.IntType@380fb434, null), 8=(types.IntType@668bc3d5, null), ((m * 8) / 3)=(types.IntType@3cda1055, null), (i / 5)=(types.IntType@7a5d012c, null), ((m + 30) * 2)=(types.IntType@3fb6a447, null), 30=(types.IntType@79b4d0f, null)}
-
-AntlrToLogic.varMap: {i=Int, j=Int, k=Int, m=Int}
-
-Error: Type declaration of variable i is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable i in this expression is ambigous. Please make sure each variable is declared exactly once.
-Error: Type declaration of variable k is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable k in this expression is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable i in this expression is ambigous. Please make sure each variable is declared exactly once.

@@ -1,6 +1,0 @@
-Formula: ((not p) => (q and p))
-Output of this formula has been stored in ./output/test99-formula01.txt
-
-Formula: (k = (((not q) and p) => ((not p) and q)))
-Output of this formula has been stored in ./output/test99-formula02.txt
-

@@ -1,3 +1,0 @@
-Formula: ((not (not p)) = p)
-Output of this formula has been stored in ./output/test159-formula01.txt
-

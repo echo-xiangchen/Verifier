@@ -1,5 +1,0 @@
-TypeChecker.varMap: {0=(types.IntType@2acf57e3, null), a=(types.IntArray@506e6d5e, null), 1.3=(types.RealType@96532d6, null), a[1.3]=(types.IntType@3796751b, null)}
-
-AntlrToLogic.varMap: {a=IntArray}
-
-1.3 is not integer type, cannot use it as array index value.

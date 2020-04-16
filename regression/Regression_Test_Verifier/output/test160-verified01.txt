@@ -1,1 +1,0 @@
-Formula: ((not false) = true) is a tautology.

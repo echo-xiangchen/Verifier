@@ -1,5 +1,0 @@
-TypeChecker.varMap: {p=(types.BoolType@48140564, null), (not p)=(types.BoolType@58ceff1, null), q=(types.BoolType@7c30a502, null), s=(types.BoolType@49e4cb85, null)}
-
-AntlrToLogic.varMap: {p=Bool, q=Bool, s=Bool}
-
-Error: variable q has not been declared.

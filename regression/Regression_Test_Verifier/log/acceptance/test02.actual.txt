@@ -1,6 +1,0 @@
-TypeChecker.varMap: {p=(types.UnknowType@3f0ee7cb, null), q=(types.BoolType@75bd9247, null), r=(types.BoolType@7d417077, null), s=(types.BoolType@7dc36524, null), t=(types.UnknowType@35bbe5e8, null), x=(types.BoolType@2c8d66b2, null), y=(types.BoolType@5a39699c, null)}
-
-AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, s=Bool, t=Bool, x=Bool, y=Bool}
-
-Error: Type declaration of variable p is ambigous. Please make sure each variable is declared exactly once.
-Error: Type declaration of variable t is ambigous. Please make sure each variable is declared exactly once.

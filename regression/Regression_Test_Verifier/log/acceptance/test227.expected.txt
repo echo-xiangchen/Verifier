@@ -1,6 +1,0 @@
-TypeChecker.varMap: {(m => n)=(types.BoolType@7f63425a, null), ((m => n) = ((m or n) = n))=(types.BoolType@36d64342, null), (m or n)=(types.BoolType@39ba5a14, null), m=(types.BoolType@511baa65, null), ((m or n) = n)=(types.BoolType@340f438e, null), n=(types.BoolType@30c7da1e, null)}
-
-AntlrToLogic.varMap: {}
-
-Formula: Forall m,n;((m => n) = ((m or n) = n)) is a tautology.
-

@@ -1,1 +1,0 @@
-Formula: ((true = q) = q) is a tautology.

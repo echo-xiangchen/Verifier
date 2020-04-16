@@ -1,1 +1,0 @@
-Formula: ((true => p) = p) is a tautology.

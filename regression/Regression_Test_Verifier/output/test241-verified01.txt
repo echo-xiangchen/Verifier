@@ -1,7 +1,0 @@
-Formula: (a[i] > 0)
-Where: 
-    a : ARRAY[INTEGER]
-    i : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    a : Int

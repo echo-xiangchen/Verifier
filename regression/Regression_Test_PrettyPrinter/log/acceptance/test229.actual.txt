@@ -1,1 +1,0 @@
-Error: variable i is not declared as boolean type.

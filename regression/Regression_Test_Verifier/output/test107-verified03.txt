@@ -1,8 +1,0 @@
-Formula: ((m * j) <= (m + 45))
-Where: 
-    j : INTEGER
-    m : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    m : -26
-    j : -64

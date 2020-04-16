@@ -1,1 +1,0 @@
-Formula: ((p and p) = p) is a tautology.

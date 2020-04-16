@@ -1,9 +1,0 @@
-Formula: (((p => q) and (q => r)) => (p => r))
-Output of this formula has been stored in ./output/test217-formula01.txt
-
-Formula: (((p = q) and (q => r)) => (p => r))
-Output of this formula has been stored in ./output/test217-formula02.txt
-
-Formula: (((p => q) and (q = r)) => (p => r))
-Output of this formula has been stored in ./output/test217-formula03.txt
-

@@ -1,8 +1,0 @@
-Formula: (i < j)
-Where: 
-    i : INTEGER
-    j : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    i : 0
-    j : 0

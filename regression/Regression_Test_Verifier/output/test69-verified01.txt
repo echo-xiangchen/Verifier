@@ -1,8 +1,0 @@
-Formula: (i = j)
-Where: 
-    i : INTEGER = 3
-    j : INTEGER = 0
-
-Is not a tautology. Here is a counter example: 
-    j : 0
-    i : 3

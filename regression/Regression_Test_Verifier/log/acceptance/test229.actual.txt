@@ -1,5 +1,0 @@
-TypeChecker.varMap: {i=(types.RealType@1cd072a9, null)}
-
-AntlrToLogic.varMap: {i=Real}
-
-Error: variable i is not declared as boolean type.

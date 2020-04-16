@@ -1,1 +1,0 @@
-Formula: (((not p) or q) or (not q)) is a tautology.

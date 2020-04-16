@@ -1,2 +1,0 @@
-i is not integer type, cannot use it as array index value.
-Error: variable i has not been declared.

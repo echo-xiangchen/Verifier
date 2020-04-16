@@ -1,8 +1,0 @@
-TypeChecker.varMap: {i=(types.UnknowType@34ce8af7, null), j=(types.IntType@b684286, null), k=(types.IntType@880ec60, null), m=(types.UnknowType@3f3afe78, null), n=(types.IntType@7f63425a, null)}
-
-AntlrToLogic.varMap: {i=Int, j=Int, k=Int, m=Int, n=Int}
-
-Error: Type declaration of variable i is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable i in this expression is ambigous. Please make sure each variable is declared exactly once.
-Error: Type declaration of variable m is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable m in this expression is ambigous. Please make sure each variable is declared exactly once.

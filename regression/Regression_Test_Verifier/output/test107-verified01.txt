@@ -1,8 +1,0 @@
-Formula: ((i * j) = (j + 5))
-Where: 
-    i : INTEGER
-    j : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    j : -7
-    i : 2

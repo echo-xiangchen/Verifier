@@ -1,6 +1,0 @@
-TypeChecker.varMap: {0=(types.IntType@2812cbfa, null), a=(types.IntArray@2acf57e3, null), i=(types.UnknowType@506e6d5e, null)}
-
-AntlrToLogic.varMap: {a=IntArray}
-
-i is not integer type, cannot use it as array index value.
-Error: variable i has not been declared.

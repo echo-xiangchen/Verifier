@@ -1,6 +1,0 @@
-TypeChecker.varMap: {p=(types.BoolType@7f63425a, null), q=(types.BoolType@36d64342, null), r=(types.BoolType@39ba5a14, null), (((p => (q = r)) = (p and q)) = (p and r))=(types.BoolType@511baa65, null), ((p => (q = r)) = (p and q))=(types.BoolType@340f438e, null), (p => (q = r))=(types.BoolType@30c7da1e, null), (p and r)=(types.BoolType@5b464ce8, null), (p and q)=(types.BoolType@57829d67, null), (q = r)=(types.BoolType@19dfb72a, null)}
-
-AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool}
-
-Formula: (((p => (q = r)) = (p and q)) = (p and r)) is a tautology.
-

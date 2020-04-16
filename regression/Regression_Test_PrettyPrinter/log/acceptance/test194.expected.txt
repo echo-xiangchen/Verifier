@@ -1,3 +1,0 @@
-Formula: ((p => q) = ((not p) or q))
-Output of this formula has been stored in ./output/test194-formula01.txt
-

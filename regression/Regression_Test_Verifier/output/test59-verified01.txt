@@ -1,8 +1,0 @@
-Formula: (p = q)
-Where: 
-    p : BOOLEAN = true
-    q : BOOLEAN = false
-
-Is not a tautology. Here is a counter example: 
-    p : true
-    q : false

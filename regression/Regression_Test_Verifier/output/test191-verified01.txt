@@ -1,1 +1,0 @@
-Formula: (((((((((p and q) and r) = p) = q) = r) = (p or q)) = (q or r)) = (r or p)) = ((p or q) or r)) is a tautology.

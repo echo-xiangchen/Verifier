@@ -1,1 +1,0 @@
-Formula: ((not p) => (q and p)) is a tautology.

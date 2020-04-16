@@ -1,1 +1,0 @@
-Formula: (n >= 0) is a tautology.

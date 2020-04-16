@@ -1,5 +1,0 @@
-Formula: true
-Output of this formula has been stored in ./output/test03-formula01.txt
-
-Warning: The following variable(s) are declared but never used: 
-  <m1> <i0> <i> <j> <k> <m> 

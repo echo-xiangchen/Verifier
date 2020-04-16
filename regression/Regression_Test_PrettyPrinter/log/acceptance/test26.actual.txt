@@ -1,2 +1,0 @@
-Error: variable p has not been declared.
-Error: variable r has not been declared.

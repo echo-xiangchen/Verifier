@@ -1,3 +1,0 @@
-Formula: Forall r,s;((r => s) = ((r and s) = r))
-Output of this formula has been stored in ./output/test226-formula01.txt
-

@@ -1,3 +1,0 @@
-Formula: ((((p and q) = p) = q) = (p or q))
-Output of this formula has been stored in ./output/test172-formula01.txt
-

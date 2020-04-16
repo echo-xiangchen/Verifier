@@ -1,3 +1,0 @@
-Formula: ((p = q) = ((p and q) or ((not p) and (not q))))
-Output of this formula has been stored in ./output/test189-formula01.txt
-

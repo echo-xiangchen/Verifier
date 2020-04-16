@@ -1,3 +1,0 @@
-Formula: ((p => q) => ((p or r) => (q or r)))
-Output of this formula has been stored in ./output/test219-formula01.txt
-

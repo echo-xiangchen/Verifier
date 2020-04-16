@@ -1,8 +1,0 @@
-TypeChecker.varMap: {(p => q)=(types.BoolType@5b464ce8, null), m1=(types.BoolType@57829d67, logic.composite.Conjunction@19dfb72a), m2=(types.BoolType@17c68925, logic.composite.Disjunction@7e0ea639), ((not p) and q)=(types.BoolType@3d24753a, null), m3=(types.BoolType@59a6e353, logic.composite.Implication@7a0ac6e3), (p and q)=(types.BoolType@71be98f5, null), m4=(types.BoolType@6fadae5d, logic.composite.Iff@17f6480), p=(types.BoolType@2d6e8792, logic.composite.BoolTrue@2812cbfa), (not p)=(types.BoolType@2acf57e3, null), q=(types.BoolType@506e6d5e, logic.composite.Negation@96532d6), r=(types.BoolType@3796751b, logic.composite.Conjunction@67b64c45), ((not p) => q)=(types.BoolType@4411d970, null), true=(types.BoolType@6442b0a6, null), ((not p) or q)=(types.BoolType@60f82f98, null), ((not p) = q)=(types.BoolType@35f983a6, null), t2=(types.BoolType@7f690630, logic.composite.Implication@edf4efb)}
-
-AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, m1=Bool, m2=Bool, m3=Bool, m4=Bool, t1=Bool, t2=Bool, t3=Bool}
-
-(p or s)is not boolean type, cannot perform this assignment.
-Error: variable s has not been declared.
-(p = t)is not boolean type, cannot perform this assignment.
-Error: variable t has not been declared.

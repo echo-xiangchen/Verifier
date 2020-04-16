@@ -1,8 +1,0 @@
-Formula: ((p or q) or (not p))
-Output of this formula has been stored in ./output/test43-formula01.txt
-
-Formula: (((p or q) or r) or (not s))
-Output of this formula has been stored in ./output/test43-formula02.txt
-
-Warning: The following variable(s) are declared but never used: 
-  <i> <j> <m> 

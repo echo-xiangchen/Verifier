@@ -1,5 +1,0 @@
-TypeChecker.varMap: {2=(types.IntType@30c7da1e, null), i=(types.RealType@5b464ce8, logic.composite.IntConst@57829d67), 2.5=(types.RealType@19dfb72a, null), j=(types.IntType@17c68925, logic.composite.RealConst@7e0ea639)}
-
-AntlrToLogic.varMap: {i=Real, j=Int}
-
-2.5 is not integer type, cannot perform this assignment.

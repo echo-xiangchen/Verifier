@@ -1,8 +1,0 @@
-Formula: (i >= (j + 48))
-Where: 
-    i : INTEGER
-    j : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    i : -1
-    j : -48

@@ -1,8 +1,0 @@
-Formula: (m = n)
-Where: 
-    m : INTEGER
-    n : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    n : 0
-    m : 1

@@ -1,7 +1,0 @@
-Error: Type declaration of variable m is ambigous. Please make sure each variable is declared exactly once.
-(j >= m)is not boolean type, cannot perform this assignment.
-Error: Type of variable m in this expression is ambigous. Please make sure each variable is declared exactly once.
-Error: variable r has not been declared.
-(m + i) is not integer type, cannot perform this assignment.
-Error: Type of variable m in this expression is ambigous. Please make sure each variable is declared exactly once.
-Error: variable r has not been declared.

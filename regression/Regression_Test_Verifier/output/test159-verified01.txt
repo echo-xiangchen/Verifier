@@ -1,1 +1,0 @@
-Formula: ((not (not p)) = p) is a tautology.

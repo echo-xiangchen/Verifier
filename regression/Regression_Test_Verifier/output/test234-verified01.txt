@@ -1,8 +1,0 @@
-Formula: (i = j)
-Where: 
-    i : REAL = (2 * 3.1)
-    j : INTEGER = (2 + 5)
-
-Is not a tautology. Here is a counter example: 
-    j : 7
-    i : 31.0/5.0

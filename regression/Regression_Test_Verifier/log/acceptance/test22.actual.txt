@@ -1,5 +1,0 @@
-TypeChecker.varMap: {p=(types.BoolType@5b464ce8, logic.composite.BoolTrue@57829d67), (not p)=(types.BoolType@19dfb72a, null), q=(types.BoolType@17c68925, logic.composite.Negation@7e0ea639), r=(types.BoolType@3d24753a, logic.composite.Conjunction@59a6e353), (t1 => q)=(types.BoolType@7a0ac6e3, null), (p and q)=(types.BoolType@71be98f5, null), true=(types.BoolType@6fadae5d, null), (p or r)=(types.BoolType@17f6480, null), t1=(types.BoolType@2d6e8792, logic.composite.Disjunction@2812cbfa), t2=(types.BoolType@2acf57e3, logic.composite.Implication@506e6d5e), (p = t2)=(types.BoolType@96532d6, null), t3=(types.BoolType@3796751b, logic.composite.Iff@67b64c45)}
-
-AntlrToLogic.varMap: {p=Bool, q=Bool, r=Bool, t1=Bool, t2=Bool, t3=Bool}
-
-Error: variable q has not been declared.

@@ -1,8 +1,0 @@
-Error: Type declaration of variable s is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable s in this expression is ambigous. Please make sure each variable is declared exactly once.
-((j = i) => s)is not boolean type, cannot perform this assignment.
-Error: Type of variable s in this expression is ambigous. Please make sure each variable is declared exactly once.
-((i = j) = s1)is not boolean type, cannot perform this assignment.
-Error: variable s1 has not been declared.
-Error: variable r0 has not been declared.
-Error: variable s1 has not been declared.

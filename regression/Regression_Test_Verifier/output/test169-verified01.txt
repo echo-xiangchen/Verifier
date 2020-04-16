@@ -1,1 +1,0 @@
-Formula: ((p or false) = p) is a tautology.

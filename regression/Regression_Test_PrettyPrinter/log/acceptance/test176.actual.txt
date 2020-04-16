@@ -1,3 +1,0 @@
-Formula: ((p and true) = p)
-Output of this formula has been stored in ./output/test176-formula01.txt
-

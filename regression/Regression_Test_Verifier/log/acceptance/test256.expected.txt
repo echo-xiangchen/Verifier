@@ -1,5 +1,0 @@
-TypeChecker.varMap: {a=(types.RealArray@39ba5a14, null), 1=(types.IntType@511baa65, null), 1.0=(types.RealType@340f438e, null), 9.8=(types.RealType@30c7da1e, null), 2.1=(types.RealType@5b464ce8, null)}
-
-AntlrToLogic.varMap: {a=RealArray}
-
-Error: variable a is not declared as a boolean array.

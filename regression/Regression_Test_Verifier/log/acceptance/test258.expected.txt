@@ -1,6 +1,0 @@
-TypeChecker.varMap: {a=(types.RealArray@506e6d5e, null), 1=(types.IntType@96532d6, null), b=(types.IntArray@3796751b, null), 1.0=(types.RealType@67b64c45, null), 9.8=(types.RealType@4411d970, null), 4=(types.IntType@6442b0a6, null), 2.1=(types.RealType@60f82f98, null)}
-
-AntlrToLogic.varMap: {a=RealArray, b=IntArray}
-
-Error: variable a is not declared as a boolean array.
-Error: variable b is not declared as a boolean array.

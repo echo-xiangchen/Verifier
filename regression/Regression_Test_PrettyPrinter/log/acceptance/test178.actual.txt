@@ -1,3 +1,0 @@
-Formula: ((p and (q and r)) = ((p and q) and (p and r)))
-Output of this formula has been stored in ./output/test178-formula01.txt
-

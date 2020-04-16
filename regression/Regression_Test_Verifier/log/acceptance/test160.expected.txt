@@ -1,6 +1,0 @@
-TypeChecker.varMap: {((not false) = true)=(types.BoolType@d041cf, null), (not false)=(types.BoolType@129a8472, null), false=(types.BoolType@1b0375b3, null), true=(types.BoolType@2f7c7260, null)}
-
-AntlrToLogic.varMap: {}
-
-Formula: ((not false) = true) is a tautology.
-

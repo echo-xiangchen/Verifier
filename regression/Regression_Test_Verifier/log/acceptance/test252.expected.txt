@@ -1,7 +1,0 @@
-TypeChecker.varMap: {a=(types.UnknowType@6fadae5d, null), 1=(types.IntType@17f6480, null), 2=(types.IntType@2d6e8792, null)}
-
-AntlrToLogic.varMap: {a=RealArray}
-
-Error: Type declaration of variable a is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable a in this expression is ambigous. Please make sure each variable is declared exactly once.
-Error: Type of variable a in this expression is ambigous. Please make sure each variable is declared exactly once.

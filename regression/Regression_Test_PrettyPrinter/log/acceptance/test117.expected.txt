@@ -1,6 +1,0 @@
-Formula: (p = (q and ((i > j) or (not (m > 0)))))
-Output of this formula has been stored in ./output/test117-formula01.txt
-
-Formula: (((not r) and (s or q)) = ((p => (m > (i * j))) and (not (i > m))))
-Output of this formula has been stored in ./output/test117-formula02.txt
-

@@ -1,8 +1,0 @@
-Formula: (j >= m)
-Where: 
-    j : INTEGER = 46
-    m : INTEGER = 100
-
-Is not a tautology. Here is a counter example: 
-    m : 100
-    j : 46

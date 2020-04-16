@@ -1,8 +1,0 @@
-Formula: (k > m)
-Where: 
-    k : INTEGER
-    m : INTEGER
-
-Is not a tautology. Here is a counter example: 
-    m : 0
-    k : 0

@@ -1,1 +1,0 @@
-Formula: (p = ((q and (i > j)) or (not (m < 0)))) is a tautology.

@@ -1,1 +1,0 @@
-Formula: (p or (not p)) is a tautology.

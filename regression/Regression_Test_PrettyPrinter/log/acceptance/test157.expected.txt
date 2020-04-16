@@ -1,3 +1,0 @@
-Formula: (((not (p = q)) = (not p)) = q)
-Output of this formula has been stored in ./output/test157-formula01.txt
-
